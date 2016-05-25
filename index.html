@@ -1,76 +1,58 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<title>Best Home Warranties 2016</title>
 <head>
+<title>Real Home Warranty Comparison 2016</title>
+<meta name="description" content="The only 100% unbiased home warranty comparison site. Taking the uncertainty out of home warranty.">
+<meta name="keywords" content="Home, Home Warranty, home, home warranty, unbiased, non-paid, real, reviews, review, comparison, 2016, best, true">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="./animate.css"> 
-<script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
-<script src="./toptenjquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="topten.css">
+<link rel="stylesheet" type="text/css" href="/CSS/topten.css">
+<link rel="stylesheet" type="text/css" href="/CSS/hover.css">
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+<script src="/jQuery/jQuery.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-<script type="text/javascript">
-
-// Display service's popup form
-    function toggle_visibility(id) {
-       var e = document.getElementById(id);
-       if(e.style.display == 'block')
-          e.style.display = 'none';
-       else
-          e.style.display = 'block';
-    }
-</script>
-
-<script type="text/javascript">
-	function checkForm(form)
-	{
-		// validation fails if the field is blank
-		if (form.fname.value == "") {
-				alert("Error: First Name cannot be blank!");
-				form.fname.focus();
-				return false;
-		  } else if (form.email.value == "") {
-				alert("Error: Email cannot be blank!");
-				form.fname.focus();
-				return false;
-		  } else if (!form.contact_pref.value.checked) {
-				alert("Error: Must select at least one preferred contact method!");
-				form.contact_pref.focus();
-				return false;
-		  }
-	}
-
+  ga('create', 'UA-78109717-1', 'auto');
+  ga('send', 'pageview');
 
 </script>
 </head>
-<body>
-
+<div id="sitewrapper">
     <header>
-        <nav style="margin: 0px; display: fixed; top: 0px;" class="navbar navbar-default">
+        <nav class="navbar navbar-default" id="nav">
           <div class="container">
             <img id="brand" src="http://r.ddmcdn.com/s_f/o_1/cx_633/cy_0/cw_1725/ch_1725/w_720/APL/uploads/2014/11/too-cute-doggone-it-video-playlist.jpg" />
-              <a class="menu" href="#">Top Ten</a>
-              <a class="menu" href="#">Reviews</a>
-              <a class="menu" href="#">Articles</a>
+              <a class="menu hvr-fade" href="#">Top Ten</a>
+              <a class="menu hvr-fade" href="#">Reviews</a>
+              <a class="menu hvr-fade" href="#">Articles</a>
 
           </div>
         </nav>
     </header>
 <!--Start of Content-->
-
-
+<body>
+    <h1 style= "display: none;">Home Warranty</h1>
     <div class="background">
-    <h1 id="objective">Our Objective:</h1>
+    <h1 id="mission">Our Mission:</h1>
         <h2 id="missionstatement">Providing all the essential information you need to know when purchasing a home warranty.</h2>
         <h3 id="firststatement">No arbitrary rating system.</h3>
-        <h3 id="secondstatement">No paid for reviews.</h3> 
+        <h3 id="secondstatement">No paid for reviews.</h3>
         <button type="button" id="jumbobutton">At a Glance</button>
+        <button type="button" class="jumbobutton"><a href="zachbutts.co">In Depth</a></button>
+        <p id="target"></p>
     </div>
     <div class="container">
+<!--BEGIN FIRST ROW!-->
         <div class="row">
-          <div target="contact" class="colrow col-md-4">
-              <img src="http://home-warranty-company-reviews.com/wp-content/uploads/2015/01/AFC-Home-Club-Logo_Stacked.jpg">
+          <div target="contact" class="colrow col-md-3">
+              <img src="http://home-warranty-company-reviews.com/wp-content/uploads/2015/01/AFC-Home-Club-Logo_Stacked-360x203.jpg">
             <ul>
                 <li><strong>Waiting Period: 30 days</strong></li>
                 <li><strong>Service Fee: $60</strong></li>
@@ -81,12 +63,11 @@
                 <li><strong>Local Technicians: Yes</strong></li>
                 <li><strong>Ability to choose technician: Yes</strong></li>
               </ul>
-              <button src="javascript:void(0)" class="quote" onclick = "document.getElementById('light_afc').style.display='block';document.getElementById('fade').style.display='block'">Request More Info</a></p>
-
+              <button class="quote hvr-grow"><a href="afclandingpage.html">Get A Quote</button>
               </div>
             
-            <div class="colrow col-md-4">
-                <img src="http://dbackpools.com/wp-content/uploads/2015/12/Choice-Home-Warranty-logo.png">
+            <div class="colrow col-md-3">
+                <img src="https://www.choicehomewarranty.com/images/chw_logo.jpg">
              <ul>
                 <li><strong>Waiting Period: 30 days</strong></li>
                 <li><strong>Service Fee: $60</strong></li>
@@ -97,11 +78,11 @@
                 <li><strong>Local Technicians: Yes</strong></li>
                 <li><strong>Ability to choose technician: Yes</strong></li>
               </ul>   
-                <button src="javascript:void(0)" class="quote" onclick = "document.getElementById('light_chw').style.display='block';document.getElementById('fade').style.display='block'">Request More Info</a></p>
+                <button class="quote hvr-grow">Get A Quote</button>
             </div>
             
-            <div class="colrow col-md-4">
-                <img src="https://cdn.moneysavingpro.com/images/cms/select-home-warranty.png">
+            <div class="colrow col-md-3">
+                <img src="https://selecthomewarranty.com/assets/logo.png">
             <ul>
                 <li><strong>Waiting Period: 30 days</strong></li>
                 <li><strong>Service Fee: $60</strong></li>
@@ -112,80 +93,96 @@
                 <li><strong>Local Technicians: Yes</strong></li>
                 <li><strong>Ability to choose technician: Yes</strong></li>
               </ul>   
-                <button src="javascript:void(0)" class="quote" onclick = "document.getElementById('light_shw').style.display='block';document.getElementById('fade').style.display='block'">Request More Info</a></p>
-            </div>           
+                <button class="quote hvr-grow">Get A Quote</button>
             </div>
-
-            <!--AFC Quote Popup -->
-
-<div id="light_afc" class="white_content_afc">
-   <p align="right"><a href="javascript:void(0)" onclick = "document.getElementById('light_afc').style.display='none';document.getElementById('fade').style.display='none'">&#9747;</a></p>
-   <form align="center" method="post" action="#" onsubmit="return checkForm(this);">
-    <img align="center" style="height: 17.5em; width: 30em; margin-top: 0px;" src="http://home-warranty-company-reviews.com/wp-content/uploads/2015/01/AFC-Home-Club-Logo_Stacked.jpg">
-    <p>First Name:<br><input type="text" name="fname"></p>
-    <p>Last Name:<br><input type="text" name="lname"></p>
-    <p>Email Address:<br><input type="email" name="email"></p>
-    <p>Phone Number:<br><input type="phone" name="phone"</p>
-    <p>I prefer to be contacted via:
-      <br>
-    <input type="checkbox" name="contact_pref" value="email"> Email <br>
-    <input type="checkbox" name="contact_pref" value="phone"> Phone 
-    </p>
-    <input type="submit" value="Request a quote">
-  </form><br>
-</div>
-    <div id="fade" class="black_overlay"></div>
-  
-<!-- end AFC Quote Popup -->
-
-<!--CHW Quote Popup -->
-
-<div id="light_chw" class="white_content_chw">
-   <p align="right"><a href="javascript:void(0)" onclick = "document.getElementById('light_chw').style.display='none';document.getElementById('fade').style.display='none'">&#9747;</a></p>
-   <form align="center" method="post" action="#" onsubmit="return checkForm(this);">
-    <img align="center" style="height: 17.5em; width: 30em; margin-top: 0px;" src="http://dbackpools.com/wp-content/uploads/2015/12/Choice-Home-Warranty-logo.png">
-    <p>First Name:<br><input type="text" name="fname"></p>
-    <p>Last Name:<br><input type="text" name="lname"></p>
-    <p>Email Address:<br><input type="email" name="email"></p>
-    <p>Phone Number:<br><input type="phone" name="phone"</p>
-    <p>I prefer to be contacted via:
-      <br>
-    <input type="checkbox" name="contact_pref" value="email"> Email <br>
-    <input type="checkbox" name="contact_pref" value="phone"> Phone 
-    </p>
-    <input type="submit" value="Request a quote">
-  </form><br>
-</div>
-    <div id="fade" class="black_overlay"></div>
-  
-<!-- end CHW Quote Popup -->
-
-<!--SHW Quote Popup -->
-
-<div id="light_shw" class="white_content_shw">
-   <p align="right"><a href="javascript:void(0)" onclick = "document.getElementById('light_shw').style.display='none';document.getElementById('fade').style.display='none'">&#9747;</a></p>
-   <form align="center" method="post" action="#" onsubmit="return checkForm(this);">
-    <img align="center" style="height: 17.5em; width: 30em; margin-top: 0px;" src="https://cdn.moneysavingpro.com/images/cms/select-home-warranty.png">
-    <p>First Name:<br><input type="text" name="fname"></p>
-    <p>Last Name:<br><input type="text" name="lname"></p>
-    <p>Email Address:<br><input type="email" name="email"></p>
-    <p>Phone Number:<br><input type="phone" name="phone"</p>
-    <p>I prefer to be contacted via:
-      <br>
-    <input type="checkbox" name="contact_pref" value="email"> Email <br>
-    <input type="checkbox" name="contact_pref" value="phone"> Phone 
-    </p>
-    <input type="submit" value="Request a quote">
-  </form><br>
-</div>
-    <div id="fade" class="black_overlay"></div>
-  
-<!-- end SHW Quote Popup -->
-
-
+            <div class="colrow col-md-3">
+                <img src="http://roseandwomble.com/OneStop/images/FA_logo.gif">
+            <ul>
+                <li><strong>Waiting Period: 30 days</strong></li>
+                <li><strong>Service Fee: $60</strong></li>
+                <li><strong>Work Guarantee: Policy Lifetime</strong></li>
+                <li><strong>Availability: Nationwide </strong></li>
+                <li><strong>Customizable Plans: Limited</strong></li>
+                <li><strong>Inspection Required: No</strong></li>
+                <li><strong>Local Technicians: Yes</strong></li>
+                <li><strong>Ability to choose technician: Yes</strong></li>
+              </ul>   
+                <button class="quote hvr-grow">Get A Quote</button>
+            </div>   
+            </div>       
+<!--BEGIN SECOND ROW !-->
+        <div class="row">
+          <div target="contact" class="colrow col-md-3">
+              <img src="https://www.ahs.com/static-srvm/ahs/AHS_logo_230_by_90.png">
+            <ul>
+                <li><strong>Waiting Period: 30 days</strong></li>
+                <li><strong>Service Fee: $60</strong></li>
+                <li><strong>Work Guarantee: Policy Lifetime</strong></li>
+                <li><strong>Availability: Nationwide </strong></li>
+                <li><strong>Customizable Plans: Limited</strong></li>
+                <li><strong>Inspection Required: No</strong></li>
+                <li><strong>Local Technicians: Yes</strong></li>
+                <li><strong>Ability to choose technician: Yes</strong></li>
+              </ul>
+              <button class="quote hvr-grow">Get A Quote</button>
+              </div>
+            
+            <div class="colrow col-md-3">
+                <img src="http://www.deltahomeprotect.com/wp-content/uploads/2015/06/delta-home-protect-retina.png">
+             <ul>
+                <li><strong>Waiting Period: 30 days</strong></li>
+                <li><strong>Service Fee: $60</strong></li>
+                <li><strong>Work Guarantee: Policy Lifetime</strong></li>
+                <li><strong>Availability: Nationwide </strong></li>
+                <li><strong>Customizable Plans: Limited</strong></li>
+                <li><strong>Inspection Required: No</strong></li>
+                <li><strong>Local Technicians: Yes</strong></li>
+                <li><strong>Ability to choose technician: Yes</strong></li>
+              </ul>   
+                <button class="quote hvr-grow">Get A Quote</button>
+            </div>
+            
+            <div class="colrow col-md-3">
+                <img src="https://www.hscwarranty.com/Content/Images/logo1.jpg">
+            <ul>
+                <li><strong>Waiting Period: 30 days</strong></li>
+                <li><strong>Service Fee: $60</strong></li>
+                <li><strong>Work Guarantee: Policy Lifetime</strong></li>
+                <li><strong>Availability: Nationwide </strong></li>
+                <li><strong>Customizable Plans: Limited</strong></li>
+                <li><strong>Inspection Required: No</strong></li>
+                <li><strong>Local Technicians: Yes</strong></li>
+                <li><strong>Ability to choose technician: Yes</strong></li>
+              </ul>   
+                <button class="quote hvr-grow">Get A Quote</button>
+            </div>  
+          <div class="colrow col-md-3">
+                <img src="https://secure.2-10.com/Homeowner/App_Themes/images/headers/hdr_main_logo.gif">
+            <ul>
+                <li><strong>Waiting Period: 30 days</strong></li>
+                <li><strong>Service Fee: $60</strong></li>
+                <li><strong>Work Guarantee: Policy Lifetime</strong></li>
+                <li><strong>Availability: Nationwide </strong></li>
+                <li><strong>Customizable Plans: Limited</strong></li>
+                <li><strong>Inspection Required: No</strong></li>
+                <li><strong>Local Technicians: Yes</strong></li>
+                <li><strong>Ability to choose technician: Yes</strong></li>
+              </ul>   
+                <button class="quote hvr-grow">Get A Quote</button>
+            </div>  
+            </div>
 <!--Start of side widget!-->
     </div>
-
+<!--Start of bottom content!-->
+  <div class="container">
+    <div class="bottomreading">
+        <h3>Home warranty basics how to decide which option to go with.</h3>
+        <p>Home warranties are extremely popular among every type of homeowner.  </p>
+        <p>Mauris elementum enim id elit cursus consequat. Nulla consequat faucibus odio viverra feugiat. Mauris quis nisl dignissim, vehicula justo in, fringilla erat. Donec vitae urna et tellus porttitor lacinia. Duis nulla erat, egestas at metus nec, dapibus blandit felis. Suspendisse vitae est efficitur, eleifend ante at, accumsan lacus. Suspendisse potenti. Phasellus placerat ante scelerisque lorem elementum dapibus. In ante mauris, pretium nec auctor sodales, placerat vitae magna. Nulla cursus lorem vitae dui euismod, vel finibus dui blandit.</p>
+        <p>Sed bibendum, purus ut porttitor convallis, diam libero consequat odio, ut bibendum ligula eros eu sapien. Sed porta est eu lobortis lobortis. Nam euismod ex eget rutrum ultrices. Proin aliquet tellus non rutrum interdum. In volutpat arcu nibh, id tristique purus condimentum quis. Aliquam eleifend id velit sed mollis. Donec congue, arcu ut pellentesque mollis, urna ante rutrum felis, sodales vulputate est ante vitae turpis.</p>
+        <p>Mauris elementum enim id elit cursus consequat. Nulla consequat faucibus odio viverra feugiat. Mauris quis nisl dignissim, vehicula justo in, fringilla erat. Donec vitae urna et tellus porttitor lacinia. Duis nulla erat, egestas at metus nec, dapibus blandit felis. Suspendisse vitae est efficitur, eleifend ante at, accumsan lacus. Suspendisse potenti. Phasellus placerat ante scelerisque lorem elementum dapibus. In ante mauris, pretium nec auctor sodales, placerat vitae magna. Nulla cursus lorem vitae dui euismod, vel finibus dui blandit.</p>
+    </div>
+    </div>
 <!--Start of Footer Content!-->
     <div class="footer">
         <h6>Copyright 2016</h6>
