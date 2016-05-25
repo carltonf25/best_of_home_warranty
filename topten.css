@@ -149,27 +149,52 @@ body {
 
     }
 
-.white_content{
+.white_content_afc{
         display: none;
         position: absolute;
         margin-top: 50%;
         top: 25%;
         left: 25%;
         width:50%;
-        border: 16px solid orange;
+        border: 16px solid #F58020;
         background-color: white;
-        padding:16px;
+        padding:10px;
         z-index:1003;
         overflow: hidden;
         -webkit-animation-name: fadeIn;
         animation-name: fadeIn;
 }
 
-.white_content a{
-    text-decoration: none;
+.white_content_chw {
+	    display: none;
+        position: absolute;
+        margin-top: 50%;
+        top: 25%;
+        left: 25%;
+        width:50%;
+        border: 16px solid #4193C2;
+        background-color: white;
+        padding:10px;
+        z-index:1003;
+        overflow: hidden;
+        -webkit-animation-name: fadeIn;
+        animation-name: fadeIn;
 }
-.white_content a:hover{
-    text-decoration: none;
+
+.white_content_shw {
+	display: none;
+        position: absolute;
+        margin-top: 50%;
+        top: 25%;
+        left: 25%;
+        width:50%;
+        border: 16px solid #12459C;
+        background-color: white;
+        padding:10px;
+        z-index:1003;
+        overflow: hidden;
+        -webkit-animation-name: fadeIn;
+        animation-name: fadeIn;
 }
 #sitewrapper {
     overflow-x: hidden;
