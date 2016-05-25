@@ -7,8 +7,12 @@
 <link rel="stylesheet" type="text/css" href="./animate.css"> 
 <script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
 <script src="./toptenjquery.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="topten.css">
 
 <script type="text/javascript">
+
+// Display service's popup form
     function toggle_visibility(id) {
        var e = document.getElementById(id);
        if(e.style.display == 'block')
@@ -18,8 +22,27 @@
     }
 </script>
 
-<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="topten.css">
+<script type="text/javascript">
+	function checkForm(form)
+	{
+		// validation fails if the field is blank
+		if (form.fname.value == "") {
+				alert("Error: First Name cannot be blank!");
+				form.fname.focus();
+				return false;
+		  } else if (form.email.value == "") {
+				alert("Error: Email cannot be blank!");
+				form.fname.focus();
+				return false;
+		  } else if (!form.contact_pref.value.checked) {
+				alert("Error: Must select at least one preferred contact method!");
+				form.contact_pref.focus();
+				return false;
+		  }
+	}
+
+
+</script>
 </head>
 <body>
 
@@ -97,7 +120,7 @@
 
 <div id="light_afc" class="white_content_afc">
    <p align="right"><a href="javascript:void(0)" onclick = "document.getElementById('light_afc').style.display='none';document.getElementById('fade').style.display='none'">&#9747;</a></p>
-   <form align="center">
+   <form align="center" method="post" action="#" onsubmit="return checkForm(this);">
     <img align="center" style="height: 17.5em; width: 30em; margin-top: 0px;" src="http://home-warranty-company-reviews.com/wp-content/uploads/2015/01/AFC-Home-Club-Logo_Stacked.jpg">
     <p>First Name:<br><input type="text" name="fname"></p>
     <p>Last Name:<br><input type="text" name="lname"></p>
@@ -119,7 +142,7 @@
 
 <div id="light_chw" class="white_content_chw">
    <p align="right"><a href="javascript:void(0)" onclick = "document.getElementById('light_chw').style.display='none';document.getElementById('fade').style.display='none'">&#9747;</a></p>
-   <form align="center">
+   <form align="center" method="post" action="#" onsubmit="return checkForm(this);">
     <img align="center" style="height: 17.5em; width: 30em; margin-top: 0px;" src="http://dbackpools.com/wp-content/uploads/2015/12/Choice-Home-Warranty-logo.png">
     <p>First Name:<br><input type="text" name="fname"></p>
     <p>Last Name:<br><input type="text" name="lname"></p>
@@ -141,7 +164,7 @@
 
 <div id="light_shw" class="white_content_shw">
    <p align="right"><a href="javascript:void(0)" onclick = "document.getElementById('light_shw').style.display='none';document.getElementById('fade').style.display='none'">&#9747;</a></p>
-   <form align="center">
+   <form align="center" method="post" action="#" onsubmit="return checkForm(this);">
     <img align="center" style="height: 17.5em; width: 30em; margin-top: 0px;" src="https://cdn.moneysavingpro.com/images/cms/select-home-warranty.png">
     <p>First Name:<br><input type="text" name="fname"></p>
     <p>Last Name:<br><input type="text" name="lname"></p>
