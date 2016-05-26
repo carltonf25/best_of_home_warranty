@@ -23,11 +23,11 @@ body {
     padding-bottom: 50%;
     z-index: 2;
 }   
-.indepth-background {
-    position: relative;
+.background-indepth {
     width: 100%;
     height: 250px;
-    background-color: darkslategrey;
+    padding-bottom: 25%;
+    background-color: tomato;
     text-align:center;
     color: #FFFFFF;
 }
@@ -104,23 +104,26 @@ body {
     position: fixed;
     width: 100%;
     z-index: 10;
-    height: 5%;
+    height: 9%;
     display: none;
 }
 .menu {
     float: right;
     padding: 1%;
-    margin: 0% 2%;
+    margin: 2% 2%;
 }
 .menu:hover {
-    text-decoration: none;
-    
+    text-decoration: none;  
+}
+.navbar {
+    margin: 0px;
+    height: 9%;
 }
 #brand {
-    margin: 2% 2%;
-    width: 10%;
-    height: 50px;
-    display: none;
+    margin-top: 0px;
+    width: 25%;
+    height: 100px;
+    padding: 1.5%;
 }
 /* Popup Formatting */ 
 
@@ -227,23 +230,59 @@ body {
     font-size: 120%;
     color: beige;
 }
-/* Widget Formatting */
-
+/* IN DEPTH PAGE FORMATTING */
+#disclaimer {
+    font-size: 25px;
+}
+/* ARTICLE PAGE FORMATTING */
+article h3 {
+    padding-bottom: 10%;
+}
+article {
+    padding: 10%;
+}
+.contentbox {
+    width: 100%;
+    height: 250px;
+}
+iframe {
+    margin: 5% 0%;
+}
+.info {
+    background-color: #f5f5dc;
+}
+.video {
+    text-align: center;
+    background-color: #add8e6;
+}
+/* Bottom Content */
+.bottomreading {
+    font-size: 20px;
+    padding: 50px;
+}
+.bottomreading h1 {
+    font-size: 50px;
+}
 
 /* Footer Formatting */
 .footer {
     width: 100%;
     height: 125px;
-    background-color: #777;
+    background-color: deepskyblue;
     margin-top: 5%;
-    color: azure;
+    color: #FFFFFF;;
     text-align: center;
 }
 .footerlinks li {
     display: inline-block;;
     text-align: center;
     margin: 0px 2%;
+    color: #FFFFFF;
+    font-size: 25px;    
     
+}
+.footer h6 {
+    font-size: 20px;
 }
 #test {
     width: 500px;
