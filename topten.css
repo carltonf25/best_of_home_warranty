@@ -1,16 +1,16 @@
-/* Reset CSS */
+    /* Reset CSS */
 html {
     margin: 0px;
     padding: 0px;  
     font-family: "Lato", "Helvetica", sans-serif;
-}
+    }
 body {
     font-family: "Lato", "Helvetica", sans-serif;
-}
+    }
 #sitewrapper {
     overflow-x: hidden;
-}
-/*Background */
+    }
+    /*Background */
 .background { 
     position: relative;
     width: 100%;
@@ -22,7 +22,7 @@ body {
     color: #000;
     padding-bottom: 50%;
     z-index: 2;
-}   
+    }   
 .background-indepth {
     width: 100%;
     height: 250px;
@@ -30,186 +30,147 @@ body {
     background-color: tomato;
     text-align:center;
     color: #FFFFFF;
-}
+    }
 #mission {
     margin-top: 0px;
     padding-top: 8%;
     font-size: 50px;   
     display: none;
     color: #FFFFFF;
-}
-#missionstatement, #firststatement, #secondstatement {
+    }
+#missionstatement, #firststatement {
     display: none;
     color: #FFFFFF;
-    z-index: 20;
-}
-#firststatement, #secondstatement {
+    }
+#firststatement {
     font-size: 50px;
-}
+    }
 #getstarted {
     color: #FFFFFF;
     display: none;
     font-size: 20px;
-}
-/* Jumbo Button Formatting */
-.jumbobutton {
-    width: 20%;
-    height: 50px;
-    text-align: center;
-    background-color: #1C3156;
-    box-shadow: 2px 1px 2px #000;
-    font-size: 20px;
-    padding-top: .3%;
-    margin: 1% 3%;
-    display: none;
-}
-.jumbobutton:hover {
-    background-color: darkblue;
-}
-.jumbobutton a {
-    color: white;
-}
-.jumbobutton a:hover {
-    text-decoration: none;
-}
-/* THIS ONE SCROLLS */
-#jumbobutton {
-    width: 20%;
-    height: 50px;
-    text-align: center;
-    background-color: #1C3156;
-    box-shadow: 2px 1px 2px #000;
-    padding-top: .3%;
-    margin: 1% 3%;
-    color: white;
-    display: none;
-    font-size: 20px;
-}
-#jumbobutton:hover {
-    background-color: darkblue;
-}
-#jumbobutton a {
-    color: white;
-}
-#jumbobutton a:hover {
-    text-decoration: none;
-}
-#target {
-    position: absolute; 
-    bottom: 0px;
-}
-/* Nav */
-#nav {
-    margin:0px; 
-    position: fixed;
-    width: 100%;
-    z-index: 10;
-    height: 9%;
-    display: none;
-}
+    }
+
+    /* Nav */
+.navbar {
+        margin: 0px;
+        height: 9%;
+    }
 .menu {
     float: right;
-    padding: 1%;
-    margin: 2% 2%;
-}
-.menu:hover {
-    text-decoration: none;  
-}
-.navbar {
-    margin: 0px;
-    height: 9%;
-}
+    margin: 1.5% 2%;
+    padding: 2%;
+    }
 #brand {
-    margin-top: 0px;
+    display: inline-block;
+    height: auto;
     width: 25%;
-    height: 100px;
-    padding: 1.5%;
+    text-align: left;
+    }
+#brand h3 {
+    padding: 0px;
+    display: inline-block;
+    position: absolute;
+    top: 22;
+    color: darkorange;
+    font-weight: 800;
+}
+#brand h5 {
+    padding: 0px;
+    display: inline-block;
+    position: absolute;
+    top: 55;
+    font-weight: 300;
+    color: black;
+}
+#logo {
+    width: 100px;
+    height: 82px;
+    float: right;
 }
 /* Popup Formatting */ 
 
 .black_overlay{
-        display: none;
-        position: fixed;
-        top: 0%;
-        left: 0%;
-        margin:0px;
-        padding-top: 20%;
-        width: 100%;
-        height: 100%;
-        background-color: black;
-        z-index:1002;
-        -moz-opacity: 0.8;
-        opacity:.80;
-        filter: alpha(opacity=80);
-        -webkit-animation-name: fadeIn;
-        animation-name: fadeIn;
-
-    }
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    margin:0px;
+    padding-top: 20%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:1002;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=80);
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+        }
 
 .white_content_afc{
-        display: none;
-        position: absolute;
-        margin-top: 50%;
-        top: 25%;
-        left: 25%;
-        width:50%;
-        border: 16px solid #F58020;
-        background-color: white;
-        padding:10px;
-        z-index:1003;
-        overflow: hidden;
-        -webkit-animation-name: fadeIn;
-        animation-name: fadeIn;
-}
+    display: none;
+    position: absolute;
+    margin-top: 50%;
+    top: 25%;
+    left: 25%;
+    width:50%;
+    border: 16px solid #F58020;
+    background-color: white;
+    padding:10px;
+    z-index:1003;
+    overflow: hidden;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    }
 
 .white_content_chw {
-	    display: none;
-        position: absolute;
-        margin-top: 50%;
-        top: 25%;
-        left: 25%;
-        width:50%;
-        border: 16px solid #4193C2;
-        background-color: white;
-        padding:10px;
-        z-index:1003;
-        overflow: hidden;
-        -webkit-animation-name: fadeIn;
-        animation-name: fadeIn;
-}
-
+    display: none;
+    position: absolute;
+    margin-top: 50%;
+    top: 25%;
+    left: 25%;
+    width:50%;
+    border: 16px solid #4193C2;
+    background-color: white;
+    padding:10px;
+    z-index:1003;
+    overflow: hidden;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    }
 .white_content_shw {
-	display: none;
-        position: absolute;
-        margin-top: 50%;
-        top: 25%;
-        left: 25%;
-        width:50%;
-        border: 16px solid #12459C;
-        background-color: white;
-        padding:10px;
-        z-index:1003;
-        overflow: hidden;
-        -webkit-animation-name: fadeIn;
-        animation-name: fadeIn;
-}
-/* Comparison Formatting*/
+    display: none;
+    position: absolute;
+    margin-top: 50%;
+    top: 25%;
+    left: 25%;
+    width:50%;
+    border: 16px solid #12459C;
+    background-color: white;
+    padding:10px;
+    z-index:1003;
+    overflow: hidden;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    }
+    /* Comparison Formatting*/
 .colrow {
     background-color: #FFFFFF;
     margin-top: 5%;
     padding-bottom: 3%;
-    text-align: center;
- 
-}
+    text-align: center
+    }
 .colrow img {
     width: 100%;
     height: 200px;
     margin: 0px;
     padding: 20%;
     text-align: center;
-}
+    }
 .colrow li {
     padding: 5%;
+    font-size: 16px;
 }
 .colrow li:nth-child(odd) {
     background-color: lightblue;
@@ -217,11 +178,11 @@ body {
 .colrow li:nth-child(even) {
     background-color: beige
 }
-.colrow ul {
+ .colrow ul {
     list-style-type: none;
     text-align: left;
     padding: 0px;
-}
+    }
 .quote {
     text-align: center;
     padding: 5%;
@@ -229,6 +190,61 @@ body {
     border-radius: 10%;
     font-size: 120%;
     color: beige;
+}
+.ribbon {
+    width: 150px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 25px;
+    font-weight: 900;
+    text-align: left;
+    border-left: 2px solid black;
+    padding-left: 2%;
+}
+.endtop {
+    position: absolute;
+    top: 25px;
+    left: 165px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0px 0 16px 25px;
+    border-color: transparent transparent transparent red;   
+}
+.endbottom {
+    position: absolute;
+    top: 34px;
+    left: 165px;
+    border-style: solid;
+    border-width: 16px 0 0px 25px;
+    border-color: transparent transparent transparent red; 
+}
+img.bbb {
+    width: 75%;
+    height: 8%;
+    padding: 2%;
+    margin-left: 12%;
+    margin-top: 6%;
+}
+.notbbb {
+    display: inline-block;
+    color: red;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: 900;
+    font-size: 14px;
+}
+li h4 {
+    margin: 0px;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 2%;
+}
+a, a:hover {
+    text-decoration: none;
 }
 /* IN DEPTH PAGE FORMATTING */
 #disclaimer {
@@ -263,7 +279,6 @@ iframe {
 .bottomreading h1 {
     font-size: 50px;
 }
-
 /* Footer Formatting */
 .footer {
     width: 100%;
@@ -279,94 +294,155 @@ iframe {
     margin: 0px 2%;
     color: #FFFFFF;
     font-size: 25px;    
-    
-}
-.footer h6 {
+    }
+    .footer h6 {
     font-size: 20px;
 }
-#test {
-    width: 500px;
-    height: 500px;
-    background-color: black
+.col-xs-6 {
+    display: none;
 }
 /* Mobile Formatting */
-@media screen and (max-width: 670px) {
-    .background {
-    position: relative;
-    width: 100%;
-    height: 520px;
-    background:url("http://i.nextmedia.com.au/News/angry%20computer%20internet%20laptop%20pc%20(Medium).jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    color: #000;
-    padding-bottom: 50%;
-}
-    #objective {
-    margin-top: 0px;
-    padding-top: 50%;
-    font-size: 100%;   
-    display: none;
-    color: #FFFFFF;
-}
-    #missionstatement {
-        font-size: 80%;
+    @media screen and (max-width: 670px) {
+        .background {
+        position: relative;
+        width: 100%;
+        height: 520px;
+        background:url("http://i.nextmedia.com.au/News/angry%20computer%20internet%20laptop%20pc%20(Medium).jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: #000;
+        padding-bottom: 50%;
     }
-    #firststatement {
-    font-size: 100%;
-    color: white;    
-}
-    #secondstatement {
-    font-size: 100%;
+        #objective {
+        margin-top: 0px;
+        padding-top: 50%;
+        font-size: 100%;   
+        display: none;
+        color: #FFFFFF;
     }
-    button.jumbobutton {
-    width: 30%;
-    height: 40px;
-    text-align: center;
-    background-color: #1C3156;
-    box-shadow: 2px 1px 2px #000;
-    padding-top: .3%;
-    margin: 5% 3%;
-    display: none;
-    font-size: 75%;
-}
-    button#jumbobutton {
-    width: 30%;
-    height: 40px;
-    text-align: center;
-    background-color: ;
-    box-shadow: 2px 1px 2px #000;
-    padding-top: .3%;
-    margin: 5% 3%;
-    display: none;
-    font-size: 75%;
-    color: #ffffff;
-}
-    .colrow {
-    border: none;
-    border-bottom: 3px dashed #1C3156;
+        #missionstatement {
+            font-size: 80%;
+            display: none;
+        }
+        #firststatement {
+            font-size: 100%;
+            color: white; 
+            display: none;
     }
-    #target {
-    position: absolute;
-    bottom: 0px;
+        #secondstatement {
+            font-size: 100%;
+            display: none;
+        }
+        .col-md-3 {
+            border: none;
+            padding: 10px;
+            display: none;
+        }
+        .col-xs-6 {
+            padding: 4px;
+            font-size: 85%;
+            display:block;
+        }
+        .col-xs-6 li {
+            font-size: 90%;
+        }
+        .ribbon {
+            width: 125px;
+            height: 25px;
+            background-color: red;
+            color: white;
+            position: absolute;
+            top: 5px;
+            font-weight: 900;
+            text-align: left;
+            border-left: 2px solid black;
+            padding: 0px;
+            font-size: 10px;
+        }
+        .endtop {
+            position: absolute;
+            top: 5px;
+            left: 130px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0px 0 16px 25px;
+            border-color: transparent transparent transparent red;   
+        }
+        .endbottom {
+            position: absolute;
+            top: 14px;
+            left: 130px;
+            border-style: solid;
+            border-width: 16px 0 0px 25px;
+            border-color: transparent transparent transparent red; 
+        }
+        .col-xs-6 img {
+            padding: 20%;
+        }
+        .colrow img {
+            width: 90%;
+            height: 25%;
+        }
+        #target {
+            position: absolute;
+            bottom: 0px;
+        }
+        #navbar {
+            display: inline-block;
+            width: 100%;
+        }
+        .menu {
+            margin: 7% 1%;
+            margin-left: 0%;
+            padding: 0px;
+            font-size: 65%;
+        }
+        #brand {
+            height: 50%;
+            width: 25%;
+        }
+        #logo {
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            margin-left: 100px;
+        }
+        #brand h3 {
+            font-size: 75%;
+            margin: 5px 0 0 0;
+        }
+        #brand h5 {
+            font-size: 75%;
+            margin: 0;
+            position: absolute;
+            top: 38;
+        }
+        img.bbb {
+            width: 65%;
+            height: 15%;
+            padding: 5%;
+        }
+        img.rating {
+            width: 20%;
+            height: 10%;
+            padding: 2%;
+        }
     }
-    .menu {
-    margin-top: 3%;
+    /* FOR SOME REASON IPAD LOOKS LIKE SHIT SO HERE WE GO */
+    @media only screen 
+    and (min-device-width : 768px) 
+    and (max-device-width : 1024px)  { 
+        li{
+            font-size: 15px;
+        }
+        .colrow img {
+            width: 25%;
+            height: 100px;
+        }
+        .colrow {
+            border-bottom: 3px dashed gray;
+            height: 50%;
+        }
     }
-}
-/* FOR SOME REASON IPAD LOOKS LIKE SHIT SO HERE WE GO */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)  { 
-    li{
-        font-size: 15px;
-    }
-    .colrow img {
-        width: 75%;
-        height: 100px;
-    }
-    .colrow {
-        border-bottom: 3px dashed gray;
-        height: 50%;
-    }
-}
