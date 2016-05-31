@@ -10,6 +10,27 @@ body {
 #sitewrapper {
     overflow-x: hidden;
     }
+
+    .navigation {
+        padding: 1.0%;
+    }
+
+    nav {
+        text-align: center;
+        font-size: 1em;
+    }
+
+    nav img {
+        width: 15em;
+        height: 6em;
+        margin-right: 10%;
+
+    }
+
+    nav a {
+
+        }
+
     /*Background */
 .background { 
     position: relative;
@@ -84,9 +105,10 @@ body {
     color: black;
 }
 #logo {
-    width: 100px;
-    height: 82px;
+    width: 5em;
+    height: 2em;
     float: right;
+    margin: 1%;
 }
 /* Popup Formatting */ 
 
@@ -287,6 +309,7 @@ iframe {
     margin-top: 5%;
     color: #FFFFFF;;
     text-align: center;
+    padding-top: 2%;
 }
 .footerlinks li {
     display: inline-block;;
@@ -297,6 +320,7 @@ iframe {
     }
     .footer h6 {
     font-size: 20px;
+    text-align: center;
 }
 .col-xs-6 {
     display: none;
@@ -402,7 +426,8 @@ iframe {
         #brand {
             height: 50%;
             width: 25%;
-        }
+            display: inline;
+                    }
         #logo {
             height: 50px;
             width: 50px;
