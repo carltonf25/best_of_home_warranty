@@ -28,7 +28,7 @@ body {
     }
 
     nav a {
-
+	display: none;
         }
 
     /*Background */
@@ -56,11 +56,9 @@ body {
     margin-top: 0px;
     padding-top: 8%;
     font-size: 50px;   
-    display: none;
     color: #FFFFFF;
     }
 #missionstatement, #firststatement {
-    display: none;
     color: #FFFFFF;
     }
 #firststatement {
@@ -71,7 +69,26 @@ body {
     display: none;
     font-size: 20px;
     }
+/* FADES IN BACKGROUND */
+@-webkit-keyframes fadeIn {    
+    0% { opacity:0; }
+    100% { opacity:1; }
+}
 
+@-moz-keyframes fadeIn {    
+    0% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-o-keyframes fadeIn {    
+    0% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@keyframes fadeIn {    
+    0% { opacity:0; }
+    100% { opacity:1; }
+}
     /* Nav */
 .navbar {
         margin: 0px;
@@ -245,19 +262,20 @@ body {
 }
 img.bbb {
     width: 75%;
-    height: 8%;
+    height: 50%;
     padding: 2%;
     margin-left: 12%;
     margin-top: 6%;
 }
-.notbbb {
-    display: inline-block;
-    color: red;
-    width: 100%;
-    height: auto;
+img.consumeraffair {
+    width: 30%;
+    height: 70.7px;
+    padding: 0px;
+    margin-left: 35%;
     text-align: center;
-    font-weight: 900;
-    font-size: 14px;
+}
+.reviewholder {
+    height: 18%;
 }
 li h4 {
     margin: 0px;
@@ -312,11 +330,12 @@ iframe {
     padding-top: 2%;
 }
 .footerlinks li {
-    display: inline-block;;
+    display: inline-block;
     text-align: center;
     margin: 0px 2%;
     color: #FFFFFF;
     font-size: 25px;    
+    display: none;
     }
     .footer h6 {
     font-size: 20px;
@@ -324,6 +343,12 @@ iframe {
 }
 .col-xs-6 {
     display: none;
+}
+#mission, #missionstatement, #firststatement {
+    -webkit-animation: fadeIn 1s linear 1; /* Safari & Chrome */
+    -moz-animation: fadeIn 1s linear 1; /* Firefox */
+    -o-animation: fadeIn 1s linear 1;  /* Opera */
+    animation: fadeIn 1s linear 1;
 }
 /* Mobile Formatting */
     @media screen and (max-width: 670px) {
@@ -447,19 +472,24 @@ iframe {
         img.bbb {
             width: 65%;
             height: 15%;
-            padding: 5%;
         }
         img.rating {
             width: 20%;
             height: 10%;
             padding: 2%;
         }
+        img.consumeraffair {
+            width: 50%;
+            height: 15%;
+            margin-left: 25%;
+            padding: 0%;
+        }
     }
     /* FOR SOME REASON IPAD LOOKS LIKE SHIT SO HERE WE GO */
     @media only screen 
     and (min-device-width : 768px) 
     and (max-device-width : 1024px)  { 
-        li{
+        li {
             font-size: 15px;
         }
         .colrow img {
