@@ -27,10 +27,6 @@ body {
 
     }
 
-    nav a {
-	display: none;
-        }
-
     /*Background */
 .background { 
     position: relative;
@@ -311,6 +307,12 @@ iframe {
     text-align: center;
     background-color: #add8e6;
 }
+.article-content {
+    font-size: 24px;
+}
+.article-title {
+    font-size: 50px;
+}
 /* Bottom Content */
 .bottomreading {
     font-size: 20px;
@@ -483,6 +485,9 @@ iframe {
             height: 15%;
             margin-left: 25%;
             padding: 0%;
+        }
+        iframe {
+            width: 95%
         }
     }
     /* FOR SOME REASON IPAD LOOKS LIKE SHIT SO HERE WE GO */
