@@ -125,74 +125,99 @@ body {
 }
 /* Popup Formatting */ 
 
+/* Popup Formatting */ 
+
 .black_overlay{
-    display: none;
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    margin:0px;
-    padding-top: 20%;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    z-index:1002;
-    -moz-opacity: 0.8;
-    opacity:.80;
-    filter: alpha(opacity=80);
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
-        }
+        display: none;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        margin:0px;
+        padding-top: 20%;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        z-index:1002;
+        -moz-opacity: 0.8;
+        opacity:.80;
+        filter: alpha(opacity=80);
+        -webkit-animation-name: fadeIn;
+        animation-name: fadeIn;
 
-.white_content_afc{
-    display: none;
-    position: absolute;
-    margin-top: 50%;
-    top: 25%;
-    left: 25%;
-    width:50%;
-    border: 16px solid #F58020;
-    background-color: white;
-    padding:10px;
-    z-index:1003;
-    overflow: hidden;
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
     }
 
-.white_content_chw {
-    display: none;
-    position: absolute;
-    margin-top: 50%;
-    top: 25%;
-    left: 25%;
-    width:50%;
-    border: 16px solid #4193C2;
-    background-color: white;
-    padding:10px;
-    z-index:1003;
-    overflow: hidden;
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
-    }
+.white_content{
+        display: none;
+        position: absolute;
+        margin-top: 50%;
+        top: 25%;
+        left: 25%;
+        width:50%;
+        border: 16px solid #F58020;
+        background-color: white;
+        padding:10px;
+        z-index:1003;
+        overflow: hidden;
+        -webkit-animation-name: fadeIn;
+        animation-name: fadeIn;
+}
+
+.company_discounts {
+	    display: none;
+        position: fixed;
+        top: 10%;
+        left: 25%;
+        width:50%;
+        height: 80%;
+        border: 16px solid #4193C2;
+        background-color: white;
+        padding: 2%;
+        z-index:1003;
+        overflow: hidden;
+        -webkit-animation-name: fadeIn;
+        animation-name: fadeIn;
+        text-align: center;
+}
+
 .white_content_shw {
-    display: none;
-    position: absolute;
-    margin-top: 50%;
-    top: 25%;
-    left: 25%;
-    width:50%;
-    border: 16px solid #12459C;
-    background-color: white;
-    padding:10px;
-    z-index:1003;
-    overflow: hidden;
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
-    }
+	display: none;
+        position: absolute;
+        margin-top: 50%;
+        top: 25%;
+        left: 25%;
+        width:50%;
+        border: 16px solid #12459C;
+        background-color: white;
+        padding:10px;
+        z-index:1003;
+        overflow: hidden;
+        -webkit-animation-name: fadeIn;
+        animation-name: fadeIn;
+}
+#sitewrapper {
+    overflow-x: hidden;
+    width: 100%;
+    height:100%;
+    margin:0px;
+}
+.promolist {
+    margin-top: 10%;
+    font-size: 32px;
+    text-align: left;
+}
+button.promo.quote {
+    margin: 0% auto;
+    width: 20%;
+    height: 25px;
+    padding: 5%;
+    border: none;
+    border-radius: 0%;
+    border-bottom: 2px dark orange;
+}
     /* Comparison Formatting*/
 .colrow {
     background-color: #FFFFFF;
-    margin-top: 5%;
+    margin-top: 10%;
     padding-bottom: 3%;
     text-align: center
     }
@@ -202,15 +227,10 @@ body {
     margin: 0px auto;  
     }
 .company-logo {
-    height: 15%;
+    height: 150px;
 }
-.company-logo.select {
-    margin-top: 10%;
-    height: 12.5%
-}
-.company-logo.totalprotect {
-    margin-top: 10%;
-    height: 12.5%;
+#choice, #select, #delta, #homeserviceclub, #totalprotect, #firstam {
+    margin-top: 15%;
 }
 .colrow li {
     padding: 5%;
@@ -236,53 +256,63 @@ body {
     color: beige;
 }
 .ribbon {
-    width: 150px;
-    height: 25px;
+    width: 175px;
+    height: 50px;
     background-color: red;
     color: white;
     position: absolute;
-    top: 0px;
+    top: -30px;
     left: 0px;
     font-weight: 900;
     text-align: left;
-    border-left: 2px solid black;
-    padding-left: 2%;
+    font-size: 15px;
+    border: none;
+    border-left: 3px solid black;
+  -moz-box-shadow:    3px 3px 10px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 10px 6px #ccc;
+  box-shadow:         20px 15px 10px 0px #ccc;
 }
 .endtop {
     position: absolute;
-    top: 0px;
-    left: 150px;
+    top: -30px;
+    left: 175px;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0px 0 16px 25px;
-    border-color: transparent transparent transparent red;   
+    border-width: 0px 0 40px 34px;
+    border-color: transparent transparent transparent red;  
 }
 .endbottom {
     position: absolute;
-    top: 9px;
-    left: 150px;
+    top: -20px;
+    left: 175px;
     border-style: solid;
-    border-width: 16px 0 0px 25px;
+    border-width: 40px 0 0px 34px;
     border-color: transparent transparent transparent red; 
 }
+#x {
+    font-size: 200%;
+    width: 50px;
+    text-align: center;
+    height: 50px;
+}
 img.bbb {
-    width: 75%;
-    height: 50%;
-    padding: 2%;
-    margin-left: 12%;
-    margin-top: 6%;
+    max-width: 100%;
+    height: auto;
+    margin: 10% auto;
 }
 img.consumeraffair {
-    width: 30%;
-    height: 70.7px;
-    padding: 0px;
-    margin-left: 35%;
-    margin-top: 6%;
-    text-align: center;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    margin-left: 25%;
 }
 .reviewholder {
-    height: 18%;
+    height: 25%;
+}
+.reviewholder h4 {
+    font-size: 90%;
+    color: #337ab7;
 }
 li h4 {
     margin: 0px;
@@ -376,25 +406,20 @@ iframe {
         color: #000;
         padding-bottom: 50%;
     }
-        #objective {
+        #mission {
         margin-top: 0px;
-        padding-top: 50%;
-        font-size: 100%;   
-        display: none;
+        font-size: 300%;   
         color: #FFFFFF;
     }
         #missionstatement {
-            font-size: 80%;
-            display: none;
+            font-size: 90%;
         }
         #firststatement {
             font-size: 100%;
             color: white; 
-            display: none;
     }
         #secondstatement {
             font-size: 100%;
-            display: none;
         }
         .col-md-3 {
             border: none;
@@ -423,6 +448,9 @@ iframe {
             padding: 0px;
             font-size: 10px;
         }
+        span.ribbon.mobile {
+            font-size: 70%;
+        }
         .endtop {
             position: absolute;
             top: 0px;
@@ -448,28 +476,18 @@ iframe {
             width: 100%;
             height: 25%;         
         }
-        #target {
-            position: absolute;
-            bottom: 0px;
-        }
-        #navbar {
-            display: inline-block;
-            width: 100%;
-        }
-        .menu {
-            margin: 7% 1%;
-            margin-left: 0%;
-            padding: 0px;
-            font-size: 65%;
-        }
-        #brand {
-            height: 50%;
-            width: 25%;
-            display: inline;
-        }
         .company-logo {
-            height: 15%;
+            height: 17%;
             padding: 0px;
+            margin: 0px;
+        }
+        nav a {
+            margin: 0px;
+            padding: 0px;
+            width: 15%;  
+            font-size: 75%;
+        }
+        nav img {
             margin: 0px;
         }
         .company-logo img {
@@ -479,12 +497,19 @@ iframe {
             padding: 0px;   
         }
         .company-logo.totalprotect {
-            margin-top: 10%;
-            height: 12.5%;
+            margin-top: 23%;
+            height: 14.5%;
         }
         .company-logo.select {
-            margin-top: 10%;
-            height: 12.5%
+            margin-top: 12%;
+            height: 14.5%
+        }
+        .company-logo.choice {
+            margin-top: 12%;
+        }
+        .company-logo.homeserviceclub {
+            margin-top: 9%;
+            height: 14.5%;
         }
         #brand h3 {
             font-size: 75%;
@@ -515,6 +540,9 @@ iframe {
             font-size: 50%;
             display: inline-block;
         }
+        li.reviewholder {
+            height: 125px;
+        }
         .reviewholder h4 {  
             font-size: 90%
         }
@@ -532,15 +560,166 @@ iframe {
     @media only screen 
     and (min-device-width : 768px) 
     and (max-device-width : 1024px)  { 
-        li {
-            font-size: 15px;
+        .background {
+        position: relative;
+        width: 100%;
+        height: 520px;
+        background:url("http://i.nextmedia.com.au/News/angry%20computer%20internet%20laptop%20pc%20(Medium).jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: #000;
+        padding-bottom: 50%;
+    }
+        #mission {
+        margin-top: 0px;
+        font-size: 300%;   
+        color: #FFFFFF;
+    }
+        #missionstatement {
+            font-size: 80%;
+        }
+        #firststatement {
+            font-size: 100%;
+            color: white; 
+    }
+        #secondstatement {
+            font-size: 100%;
+        }
+        .col-md-3 {
+            border: none;
+            padding: 10px;
+            display: none;
+        }
+        .col-xs-6 {
+            padding: 4px;
+            font-size: 85%;
+            display: block;
+        }
+        .col-xs-6 li {
+            font-size: 200%;
+        }
+        .ribbon {
+            width: 150px;
+            height: 25px;
+            background-color: red;
+            color: white;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            font-weight: 900;
+            text-align: left;
+            border-left: 2px solid black;
+            padding: 0px;
+            font-size: 10px;
+        }
+        .endtop {
+            position: absolute;
+            top: 0px;
+            left: 150px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0px 0 24px 25px;
+            border-color: transparent transparent transparent red;   
+        }
+        .endbottom {
+            position: absolute;
+            left: 150px;
+            top: 0px;
+            border-style: solid;
+            border-width: 25px 0 0px 25px;
+            border-color: transparent transparent transparent red; 
+        }
+        .col-xs-6 img {
+            padding: 20%;
         }
         .colrow img {
-            width: 25%;
-            height: 100px;
+            width: 100%;
+            height: 25%;         
         }
-        .colrow {
-            border-bottom: 3px dashed gray;
+        #target {
+            position: absolute;
+            bottom: 0px;
+        }
+        #navbar {
+            display: inline-block;
+            width: 100%;
+        }
+        .menu {
+            margin: 7% 1%;
+            margin-left: 0%;
+            padding: 0px;
+            font-size: 65%;
+        }
+        #brand {
             height: 50%;
+            width: 25%;
+            display: inline;
+        }
+        .company-logo {
+            height: 20%;
+            padding: 0px;
+            margin: 0px;
+        }
+        .company-logo img {
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0px;   
+        }
+        .company-logo.totalprotect {
+            margin-top: 10%;
+            height: 16.5%;
+        }
+        .company-logo.select {
+            margin-top: 10%;
+            height: 16.5%
+        }
+        img.company-logo.homeserviceclub {
+            margin-top: 10%;
+            height: 16.5%
+        }
+        img.company-logo.choice {
+            margin-top: 10%;
+            height: 16.5%
+        }
+        #brand h3 {
+            font-size: 75%;
+            margin: 5px 0 0 0;
+        }
+        #brand h5 {
+            font-size: 75%;
+            margin: 0;
+            position: absolute;
+            top: 38;
+        }
+        img.bbb {
+            width: 75%;
+            height: auto;
+            margin: 0px;
+            margin-left: 10%;
+            margin-right: auto;
+            padding: 0px;
+        }
+        img.consumeraffair {
+            max-width: 25%;
+            height: auto;
+            margin: 0px;
+            margin-left: 35%;
+            margin-right: auto; 
+            padding: 0%;
+        }
+        .reviewholder h4 {  
+            font-size: 90%; 
+        }
+        iframe {
+            width: 95%
+        }
+        .bottomreading {
+            font-size: 90%;
+        }
+        .bottomreading h1 {
+            font-size: 24px;
         }
     }
