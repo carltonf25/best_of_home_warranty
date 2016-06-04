@@ -10,10 +10,10 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <script async="" src="https://www.google-analytics.com/analytics.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<script type="text/javascript" src="/toptenjs.js"></script>
+<script type="text/javascript" src="toptenjs.js"></script>
 <link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="/topten.css">
-<link rel="stylesheet" type="text/css" href="/hover.css">
+<link rel="stylesheet" type="text/css" href="C:/Users/zacha/Desktop/Top Ten/topten.css">
+<link rel="stylesheet" type="text/css" href="C:/Users/zacha/Desktop/Top Ten/hover.css">
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -23,7 +23,7 @@
   ga('send', 'pageview');
 </script>
 </head>
-<body onload="displayDate()">
+<body onload="displayDate();">
 <script>
 </script>
 <div id="sitewrapper">
@@ -45,7 +45,7 @@
 <!--BEGIN FIRST ROW!-->
         <div class="row">
           <div target="contact" class="colrow col-md-3">    
-              <button src="javascript:void(0)" class="ribbon" onclick = "document.getElementById('afcpromo').style.display='block';document.getElementById('fade').style.display='block'">Best Customer Service<br><h6>Click to view Promotions</h6></button><span class="endtop"></span><span class="endbottom"></span>
+              <button src="javascript:void(0)" class="ribbon" id="afcbutton" onclick = "displayPromo(this.id);">Best Customer Service<br><h6>Click to view Promotions</h6></button><span class="endtop"></span><span class="endbottom"></span>
               <span class="endtop"></span><span class="endbottom"></span>
             <div class="company-logo">
               <img src="http://home-warranty-company-reviews.com/wp-content/uploads/2015/01/AFC-Home-Club-Logo_Stacked-360x203.jpg" alt="AFC Logo">
@@ -71,7 +71,7 @@
               </div>   
             
         <div class="colrow col-md-3">
-              <button src="javascript:void(0)" class="ribbon" onclick = "document.getElementById('choicepromo').style.display='block';document.getElementById('fade').style.display='block'">Best in Value<br><h6>Click to view Promotions</h6></button><span class="endtop"></span><span class="endbottom"></span>
+              <button src="javascript:void(0)" class="ribbon" id="choicebutton" onclick = "displayPromo(this.id);">Best in Value<br><h6>Click to view Promotions</h6></button><span class="endtop"></span><span class="endbottom"></span>
             <div class="company-logo choice">
                 <img id="choice" src="http://res.cloudinary.com/goodsearch/image/upload/v1449103404/hi_resolution_merchant_logos/choice-home-warranty_coupons.png" alt="Choice Home Warranty Logo">
             </div>
@@ -94,7 +94,7 @@
             </div> 
             
         <div class="colrow col-md-3">
-              <button src="javascript:void(0)" class="ribbon" onclick = "document.getElementById('selectpromo').style.display='block';document.getElementById('fade').style.display='block'">Limited Roof Coverage<h6>Click to view Promotions</h6></button><span class="endtop"></span><span class="endbottom"></span>
+              <button src="javascript:void(0)" class="ribbon" id="selectbutton" onclick = "displayPromo(this.id);">Limited Roof Coverage<h6>Click to view Promotions</h6></button><span class="endtop"></span><span class="endbottom"></span>
             <div class="company-logo select">
                 <img id="select" src="https://selecthomewarranty.com/assets/logo.png" alt="Select Home Warranty Logo">
             </div>
