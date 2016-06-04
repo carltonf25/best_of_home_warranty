@@ -123,7 +123,7 @@ body {
     float: right;
     margin: 1%;
 }
-/* Popup Formatting */ 
+
 
 /* Popup Formatting */ 
 
@@ -201,18 +201,20 @@ body {
     margin:0px;
 }
 .promolist {
-    margin-top: 10%;
+    margin-top: 5%;
     font-size: 32px;
     text-align: left;
 }
-button.promo.quote {
+#club_benefits {
+    font-size: 70%;
+}
+button.promo.quote.hvr-grow {
     margin: 0% auto;
     width: 20%;
-    height: 25px;
-    padding: 5%;
+    height: 50px;
     border: none;
     border-radius: 0%;
-    border-bottom: 2px dark orange;
+    padding-bottom: 8%;
 }
     /* Comparison Formatting*/
 .colrow {
@@ -295,6 +297,8 @@ button.promo.quote {
     width: 50px;
     text-align: center;
     height: 50px;
+    margin: 0px;
+    float: right;
 }
 img.bbb {
     max-width: 100%;
