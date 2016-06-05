@@ -5,15 +5,13 @@
 <meta name="description" content="Home warranty companies in a side by side detailed review.  Get the informed of the facts before you shop for a price.">
 <meta name="keywords" content="Home, Home Warranty, home, pricing, home warranty plans, home warranty policies, business, reviews, nationwide home warranty, comparison, 2016, best">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="toptenjavascript.js"></script>
 <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<script async="" src="https://www.google-analytics.com/analytics.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<script type="text/javascript" src="toptenjs.js"></script>
+<script async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./CustomJS/toptenjs.js"></script>
 <link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="C:/Users/zacha/Desktop/Top Ten/topten.css">
-<link rel="stylesheet" type="text/css" href="C:/Users/zacha/Desktop/Top Ten/hover.css">
+<link rel="stylesheet" type="text/css" href="./CSS/topten.css">
+<link rel="stylesheet" type="text/css" href="./CSS/hover.css">
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -24,18 +22,17 @@
 </script>
 </head>
 <body onload="displayDate();">
-<script>
-</script>
 <div id="sitewrapper">
     <header>
        <div class="navigation"><nav>
-            <img src="best_of_logo.png" alt="BoHW Logo">
-            <a class="hvr-fade" href="articles.html">Articles |</a>
-            <a class="hvr-fade" href="index.html">Top 10 |</a>      
+            <a href="index.html"><img src="Images/best_of_logo.png" alt="BoHW Logo"></a>
+            <a href="article.html">Articles |</a>
+            <a href="index.html">Top  |</a>      
         </nav></div>
     </header>
 <!--Start of Content-->
-    <div class="background-indepth">
+
+      <div class="background-indepth">
     <h1 id="mission">Get the facts before you call.</h1>
         <h2 id="missionstatement">We've compiled all the important bits you'd want to know prior to looking for pricing.</h2>
         <h3 id="firststatement">Get started comparing the best companies in the industry below.</h3>
@@ -43,9 +40,9 @@
     </div>
     <div class="container">
 <!--BEGIN FIRST ROW!-->
-        <div class="row">
+       <div class="row">
           <div target="contact" class="colrow col-md-3">    
-              <button src="javascript:void(0)" class="ribbon" id="afcbutton" onclick = "displayPromo(this.id);">Best Customer Service<br><h6>Click to view Promotions</h6></button><span class="endtop"></span><span class="endbottom"></span>
+              <button src="javascript:void(0)" class="ribbon" id="afcbutton" onclick = "displayPromo(this.id); ga('send', 'event', 'promoRibbon', 'promoClick', 'AFC');">Click to View Promotions</button>
               <span class="endtop"></span><span class="endbottom"></span>
             <div class="company-logo">
               <img src="http://home-warranty-company-reviews.com/wp-content/uploads/2015/01/AFC-Home-Club-Logo_Stacked-360x203.jpg" alt="AFC Logo">
@@ -67,11 +64,11 @@
                     <img class="bbb" src="http://sellingwithinsight.com/wp-content/uploads/2016/04/better-business-bureau-logo-no-background-bbb-large.jpg"><br><h4>B BBB Rating<br>Click for Review</h4></a>
                 </li>
               </ul>
-              <a href="http://afchomeclub.com/" target="_blank"><button class="quote hvr-grow">Visit Site</button></a>
+              <a href="http://afchomeclub.com/" target="_blank" onclick="ga('send', 'event', 'promoRibbon', 'promoClick', 'AFC');"><button class="quote hvr-grow">Visit Site</button></a>
               </div>   
             
         <div class="colrow col-md-3">
-              <button src="javascript:void(0)" class="ribbon" id="choicebutton" onclick = "displayPromo(this.id);">Best in Value<br><h6>Click to view Promotions</h6></button><span class="endtop"></span><span class="endbottom"></span>
+              <button src="javascript:void(0)" class="ribbon" id="choicebutton" onclick = "displayPromo(this.id); ga('send', 'event', 'promoRibbon', 'promoClick', 'Choice');">Click to view Promotions</button><span class="endtop"></span><span class="endbottom"></span>
             <div class="company-logo choice">
                 <img id="choice" src="http://res.cloudinary.com/goodsearch/image/upload/v1449103404/hi_resolution_merchant_logos/choice-home-warranty_coupons.png" alt="Choice Home Warranty Logo">
             </div>
@@ -88,13 +85,13 @@
                 <li><strong>Years in Business:</strong> 8</li>
                 <li><strong>Cancellation Fee:</strong> $50</li>
                 <li class="reviewholder">
-                    <img class="consumeraffair" src="https://media.consumeraffairs.com/static/img/common/trusted-shield-102.036a65cca665.png"><h4><br>Consumer Affairs Accredited</h4></a></li>
+                    <img class="consumeraffair" src="https://media.consumeraffairs.com/static/img/common/trusted-shield-102.036a65cca665.png"><h4><br>Consumer Affairs Accredited</h4></li>
               </ul> 
-            <a href="https://www.choicehomewarranty.com/" target="_blank"><button class="quote hvr-grow">Visit Site</button></a>
+            <a href="http://chwplan.com/a/a54/index.php?utm_source=bohwfm&amp;utm_campaign=SUBID" target="_blank"><button class="quote hvr-grow">Visit Site</button></a>
             </div> 
             
         <div class="colrow col-md-3">
-              <button src="javascript:void(0)" class="ribbon" id="selectbutton" onclick = "displayPromo(this.id);">Limited Roof Coverage<h6>Click to view Promotions</h6></button><span class="endtop"></span><span class="endbottom"></span>
+              <button src="javascript:void(0)" class="ribbon" id="selectbutton" onclick = "displayPromo(this.id); ga('send', 'event', 'promoRibbon', 'promoClick', 'Select');">Click to view Promotions</button><span class="endtop"></span><span class="endbottom"></span>
             <div class="company-logo select">
                 <img id="select" src="https://selecthomewarranty.com/assets/logo.png" alt="Select Home Warranty Logo">
             </div>
@@ -111,13 +108,14 @@
                 <li><strong>Years in Business:</strong> 4</li>
                 <li><strong>Cancellation Fee:</strong> $75</li>
                 <li class="reviewholder">
-                    <a href="https://www.consumeraffairs.com/homeowners/delta-home-protect.html" target="_blank">
-                    <img class="consumeraffair" src="https://media.consumeraffairs.com/static/img/common/trusted-shield-102.036a65cca665.png"><h4><br>Consumer Affairs Accredited</h4></a></li>
+                    <img class="consumeraffair" src="https://media.consumeraffairs.com/static/img/common/trusted-shield-102.036a65cca665.png"><h4><br>Consumer Affairs Accredited</h4></li>
               </ul> 
             <a href="https://selecthomewarranty.com/affiliate/3c0c53" target="_blank"><button class="quote hvr-grow">Visit Site</button></a>
             </div>
             
             <div class="colrow col-md-3">
+              <button src="javascript:void(0)" class="ribbon" id="totalbutton" onclick = "displayPromo(this.id); ga('send', 'event', 'promoRibbon', 'promoClick', 'Total');">Click to View Promotions</button>
+              <span class="endtop"></span><span class="endbottom"></span>
                 <div class="company-logo totalprotect">
                 <img id="totalprotect" src="https://media.consumeraffairs.com/files/cache/guide-campaign-logos/total_protect_logo_thumbnail.jpg">
                 </div>
@@ -138,7 +136,7 @@
                     <img class="bbb" src="http://sellingwithinsight.com/wp-content/uploads/2016/04/better-business-bureau-logo-no-background-bbb-large.jpg"><br><h4>B+ BBB Rating<br>Click for Review</h4></a>
                 </li>
               </ul>
-                <a href="http://www.jdoqocy.com/click-8083462-12173621-1453493376000"target="_blank"><button class="quote hvr-grow" onclick=_gaq.push([‘_trackEvent’, ‘button’, ‘clicked’ ‘Total Protect’]);>Visit Site</button></a>
+                <a href="https://deals.totalprotect.com/cj?cc=DTCLGN123" target="_blank"><button class="quote hvr-grow" onclick=_gaq.push([‘_trackEvent’, ‘button’, ‘clicked’ ‘Total Protect’]);>Visit Site</button></a>
             </div>
             </div>       
 <!--BEGIN SECOND ROW !-->
@@ -229,7 +227,6 @@
                 <li><strong>Years in Business:</strong> 8.5</li>
                 <li><strong>Cancellation Fee:</strong> $45</li>
                 <li class="reviewholder">
-                    <a href="https://www.consumeraffairs.com/homeowners/home-service-club.html" target="_blank">
                     <img class="consumeraffair" src="https://media.consumeraffairs.com/static/img/common/trusted-shield-102.036a65cca665.png"><h4><br>Consumer Affairs Accredited</h4></li>
               </ul> 
             <a href="https://www.hscwarranty.com/" target='_blank'><button class="quote hvr-grow">Visit Site</button></a>
@@ -329,7 +326,7 @@
                     <img class="bbb" src="http://sellingwithinsight.com/wp-content/uploads/2016/04/better-business-bureau-logo-no-background-bbb-large.jpg"><br><h4>B+ BBB Rating<br>Click for Review</h4></a>
                 </li>
               </ul>
-                <a href="https://www.totalprotect.com/" target="_blank"><button class="quote hvr-grow" onclick=_gaq.push([‘_trackEvent’, ‘button’, ‘clicked’ ‘Total Protect’]);>Visit Site</button></a>
+                <a href="https://deals.totalprotect.com/cj?cc=DTCLGN123" target="_blank"><button class="quote hvr-grow" onclick=_gaq.push([‘_trackEvent’, ‘button’, ‘clicked’ ‘Total Protect’]);>Visit Site</button></a>
             </div>  
     </div>
 <!--BEGIN SECOND ROW !-->
@@ -419,7 +416,8 @@
                 <li class="reviewholder"><a href="https://www.consumeraffairs.com/homeowners/home-service-club.html" target="_blank"> <img class="consumeraffair" src="https://media.consumeraffairs.com/static/img/common/trusted-shield-102.036a65cca665.png"><br><h4>Consumer Affairs Accredited<br>Click for Review</h4></a></li>
               </ul> 
             <a href="https://www.hscwarranty.com/" target='_blank'><button class="quote hvr-grow">Visit Site</button></a>
-            </div>   
+            </div> 
+    </div>
 <!--Start of bottom content!-->
   <div class="container">
         <h1><strong>Home Warranty Basics:</strong></h1>
@@ -429,38 +427,37 @@
         <p>Thats why we made this site.  To collect and present all the information that as a consumer, you should know.  We were once home warranty shoppers ourselves and were bewildered by the amount of pushy salesmen who provided little to no detail about how home warranty companies operate.  We hope you find this site useful and informative as you look for a home warranty provider.</p>
     </div>
 <!--PROMOTIONAL POPUPS!-->
-
+<div id="fade" class="black_overlay"></div>
 <!--AFC PROMO POPUP!-->
 <div id="afcpromo" class="company_discounts">
     <a id="x" class="hvr-fade" href="javascript:void(0)" onclick = "closePromo();">&#9747;</a></p>
     <img style="height: 25%; max-width: 100%;" src="http://home-warranty-company-reviews.com/wp-content/uploads/2015/01/AFC-Home-Club-Logo_Stacked-360x203.jpg">
     <ul class="promolist">
-    <li>10% off summer promotion</li>
-    <li>Free club benefits</li>
-        <ul id="club_benefits">
-        <li>$25 per month restaurant gift cards</li>
-        <li>Retail Benefits</li>
-        <li>Emergency Alert Network</li>
-        </ul>
+        <li>10% off summer promotion</li>
+        <li>Free club benefits</li>
+            <ul id="club_benefits">
+                <li>$25 per month restaurant gift cards</li>
+                <li>Retail Benefits</li>
+                <li>Emergency Alert Network</li>
+            </ul>
     </ul>
     <p>*Some promotions may require a quote request</p>
     <a href="http://afchomeclub.com/" target="_blank"><button class="promo quote hvr-grow">Visit Site</button></a>
 </div>
 <!--END AFC POPUP!-->
-    
+<div id="fade" class="black_overlay"></div>
 <!--CHOICE PROMO POPUP!-->
 <div id="choicepromo" class="company_discounts">
-    <a id="x" class="hvr-fade" href="javascript:void(0)" onclick = "closePromo();">&#9747;</a></p>
-    <img style="height: auto; max-width: 100%; margin: 7% auto;" src="http://res.cloudinary.com/goodsearch/image/upload/v1449103404/hi_resolution_merchant_logos/choice-home-warranty_coupons.png">
+    <a id="x" class="hvr-fade" href="javascript:void(0)" onclick = "closePromo();">&#9747;</a>
+    <img style="height: auto; max-width: 100%; margin: 7% auto;" src="http://res.cloudinary.com/goodsearch/image/upload/v1449103404/hi_resolution_merchant_logos/choice-home-warranty_coupons.png" />
     <ul style="margin: 0px;" class="promolist">
-    <li>First Month Free</li>
-    <li>$50 Off Any Plan</li>
-    <li>Enter to Win New Kitchen Appliances</li>
+        <li>First Month Free</li>
+        <li>$50 Off Any Plan</li>
+        <li>Enter to Win New Kitchen Appliances</li>
     </ul>
     <p>*Some promotions may require a quote request</p>
-    <a href="https://www.choicehomewarranty.com/" target="_blank"><button class="promo quote hvr-grow">Visit Site</button></a>
+    <a href="http://chwplan.com/a/a54/index.php?utm_source=bohwfm&amp;utm_campaign=SUBID" target="_blank"><button class="promo quote hvr-grow">Visit Site</button></a>
     </div>
-    <div id="fade" class="black_overlay"></div>
 <!--END CHOICE POP UP!-->
 
 <!--SELECT PROMO POPUP!-->
@@ -468,12 +465,22 @@
     <a id="x" class="hvr-fade" href="javascript:void(0)" onclick = "closePromo();">&#9747;</a>
     <img style="height: auto; width: 15em; margin: 7% auto;" src="https://selecthomewarranty.com/assets/logo.png">
     <ul class="promolist">
-    <li>20% off (mention coupon code 20OFF)</li>
-    <li>Up to 2 months free</li>
-    <li>Roof coverage included free for limited time</li>
+        <li>20% off (mention coupon code 20OFF)</li>
+        <li>Up to 2 months free</li>
+        <li>Roof coverage included free for limited time</li>
     </ul>
     <p>*Some promotions may require a quote request</p>
-            <a href="https://selecthomewarranty.com/affiliate/3c0c53" target="_blank"><button class="promo quote hvr-grow">Visit Site</button></a>
+    <a href="https://selecthomewarranty.com/affiliate/3c0c53" target="_blank"><button class="promo quote hvr-grow">Visit Site</button></a>
+</div>
+<!--TotalProtect PROMO POPUP!-->
+<div id="totalpromo" class="company_discounts">
+    <a id="x" class="hvr-fade" href="javascript:void(0)" onclick = "closePromo();">&#9747;</a>
+    <img style="height: auto; width: 15em; margin: 7% auto;" src="https://media.consumeraffairs.com/files/cache/guide-campaign-logos/total_protect_logo_thumbnail.jpg">
+    <ul style="margin-top: 10%;" class="promolist">
+        <li>$100 off Combo Plans for limited time</li>
+    </ul>
+    <p>*Some promotions may require a quote request</p>
+    <a href="https://deals.totalprotect.com/cj?cc=DTCLGN123" target="_blank"><button class="promo quote hvr-grow">Visit Site</button></a>
 </div>
 <!--Start of Footer Content!-->
     <div class="footer">
