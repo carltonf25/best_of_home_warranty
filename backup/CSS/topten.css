@@ -200,27 +200,21 @@ body {
     height:100%;
     margin:0px;
 }
-.company-discounts ul {
-    margin: 5%;
-    font-size: 32px;
-    text-align: left;
-}
-
 .promolist {
     margin-top: 5%;
     font-size: 32px;
     text-align: left;
 }
-
 #club_benefits {
     font-size: 70%;
 }
 button.promo.quote.hvr-grow {
     margin: 0% auto;
-    width: 30%;
+    width: 20%;
+    height: 50px;
     border: none;
     border-radius: 0%;
-    padding: 3%;
+    padding-bottom: 8%;
 }
     /* Comparison Formatting*/
 .colrow {
@@ -240,14 +234,6 @@ button.promo.quote.hvr-grow {
 #choice, #select, #delta, #homeserviceclub, #totalprotect, #firstam {
     margin-top: 15%;
 }
-
-.promo_logo {
-    width: 220px;
-    height: 82px;
-    margin: 0 auto;
-
-}
-
 .colrow li {
     padding: 5%;
     font-size: 16px;
@@ -262,7 +248,6 @@ button.promo.quote.hvr-grow {
     list-style-type: none;
     text-align: left;
     padding: 0px;
-    margin-top: 2.5%;
     }
 .quote {
     text-align: center;
@@ -350,16 +335,6 @@ a, a:hover {
 article h3 {
     padding-bottom: 10%;
 }
-
-.blockquote {
-    padding-left:20px;
-    display: block;
-}
-
-.article-img {
-    width: 520px;
-    height: 333px;
-}
 article {
     padding: 10%;
 }
@@ -378,7 +353,7 @@ iframe {
     background-color: #add8e6;
 }
 .article-content {
-    font-size: 18px;
+    font-size: 24px;
 }
 .article-title {
     font-size: 50px;
@@ -584,13 +559,7 @@ iframe {
         .bottomreading h1 {
             font-size: 24px;
         }
-.article-img {
-        width: 95%;
     }
-        
-    }
-
-    
     /* FOR SOME REASON IPAD LOOKS LIKE SHIT SO HERE WE GO */
     @media only screen 
     and (min-device-width : 768px) 
@@ -757,9 +726,4 @@ iframe {
         .bottomreading h1 {
             font-size: 24px;
         }
-    }
-
-    .promo_logo {
-        width: 50%;
-        height: 18%;
     }
