@@ -163,7 +163,7 @@ body {
 }
 
 .company_discounts {
-	    display: none;
+        display: none;
         position: fixed;
         top: 10%;
         left: 25%;
@@ -180,7 +180,7 @@ body {
 }
 
 .white_content_shw {
-	display: none;
+    display: none;
         position: absolute;
         margin-top: 50%;
         top: 25%;
@@ -477,15 +477,16 @@ iframe {
 
         #ahs-mobile-logo {
             margin-bottom: 0.1%;
-            margin-top: -1%;
+            margin-left: 4%;
         }
 
         #ahs-mobile-col {
-            margin-top: -182%;
+            margin-top: -176.5%;
+            margin-left: 0%;
+            margin-left: 50%;
         }
 
         #dhp-mobile-logo {
-            margin-top: 25%;
             margin-bottom: 5%;
         }
 
