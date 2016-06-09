@@ -455,6 +455,40 @@ iframe {
             padding: 10px;
             display: none;
         }
+
+        #chw-mobile-logo {
+            margin-top: 0%;
+            margin-bottom: 10%;
+        }
+
+        #tp-mobile-logo {
+            margin-top: -6%;
+            margin-bottom: 5.9%;
+        }
+
+        #hsc-mobile-logo {
+            margin-top: -19.5%;
+        }
+
+        #fa-mobile-logo {
+            margin-top: -7%;
+            margin-bottom: 7%;
+        }
+
+        #ahs-mobile-logo {
+            margin-bottom: 0.1%;
+            margin-top: -1%;
+        }
+
+        #ahs-mobile-col {
+            margin-top: -182%;
+        }
+
+        #dhp-mobile-logo {
+            margin-top: 25%;
+            margin-bottom: 5%;
+        }
+
         .col-xs-6 {
             padding: 4px;
             font-size: 85%;
