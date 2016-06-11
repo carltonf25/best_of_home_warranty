@@ -1,3 +1,19 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @zbutts1992
+ Unwatch 2
+  Star 0
+  Fork 1 carltonf25/best_of_home_warranty
+ Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs
+Branch: master Find file Copy pathbest_of_home_warranty/topten.css
+9ccfb93  5 days ago
+ Carlton Freeman Added favicon to all article pages, adjusted some keywords, added new…
+1 contributor
+RawBlameHistory    741 lines (722 sloc)  16.1 KB
     /* Reset CSS */
 html {
     margin: 0px;
@@ -338,8 +354,14 @@ li h4 {
 a, a:hover {
     text-decoration: none;
 }
-/* IN DEPTH PAGE FORMATTING */
-#disclaimer {
+/* ABOUT US FORMATTING */
+.aboutus_header {
+    text-align: center;
+}
+.aboutus_idea {
+    line-height: 50px;   
+    }
+.creation_criteria {
     font-size: 25px;
 }
 /* ARTICLE PAGE FORMATTING */
@@ -738,3 +760,5 @@ iframe {
             font-size: 24px;
         }
     }
+Status API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
