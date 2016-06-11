@@ -1,3 +1,12 @@
+#Disable serversignature
+ServerSignature off
+
+#Redirect www to http
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^107\.180\.25\.127 [OR]
+RewriteCond %{HTTP_HOST} ^www\.bestofhomewarranty\.com$
+RewriteRule ^/?$ "http\:\/\/bestofhomewarranty\.com\/" [R=301,L]
+
 # compress text, html, javascript, css, xml:
 AddOutputFilterByType DEFLATE text/plain
 AddOutputFilterByType DEFLATE text/html
