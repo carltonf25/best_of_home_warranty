@@ -241,6 +241,10 @@ button.promo.quote.hvr-grow {
     margin-top: 15%;
 }
 
+#choice, #select, #delta, #homeserviceclub, #totalprotect, #firstam img {
+    margin-top: 17%;
+}
+
 .promo_logo {
     width: 220px;
     height: 82px;
