@@ -57,7 +57,7 @@
     <img class="promo_logo" src="http://home-warranty-company-reviews.com/wp-content/uploads/2015/01/AFC-Home-Club-Logo_Stacked-360x203.jpg" alt="America's First Choice logo">
     </div>
     <ul class="promolist">
-        <li>15% any plan during Summer Promotion 2016</li>
+        <li>10% any plan by calling in.</li>
         <li>Free club benefits</li>
             <ul id="club_benefits">
                 <li>$25 per month restaurant gift cards</li>

@@ -34,8 +34,9 @@
                 <li><strong>Waiting Period:</strong> 30 days</li>
                 <li><strong>Service Fee: </strong> $60</li>
                 <li><strong>Work Guarantee:</strong> 90 days parts/labor</li>
+                
                 <li><strong>Availability:</strong> Nationwide</li>
-                 <li><strong>Can choose your own service tech?</strong> No</li>
+                 <li><strong>Can choose your own service tech?</strong>Yes</li>
                 <li><strong>Average response time:</strong> 24-48 hours</li>
                 <li><strong>Pricing locked in?</strong> No</li>
                 <li><strong>Length of policies:</strong> 1 / 3 / 5 year</li>
