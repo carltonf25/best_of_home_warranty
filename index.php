@@ -30,7 +30,7 @@
 <!--Start of Content-->
 
       <div class="background-indepth">
-    <h1 id="mission">Home Warranty.</h1>
+        <h1 id="mission">Home Warranty.</h1>
         <h2 id="missionstatement">Get the numbers you need before you make the call.</h2>
         <h3 id="firststatement">Get started comparing the highest rated, nation-wide companies below.</h3>
         <span id="currentdate"></span>
