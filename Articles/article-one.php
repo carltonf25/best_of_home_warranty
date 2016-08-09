@@ -25,7 +25,7 @@
 </script>
 </head>
 <div id="sitewrapper">
-<?php include('header.php'; ?>
+<?php include('../header.php');?>
 <!--Start of Content-->
 <body>
 <div itemscope itemtype="https://schema.org/Article" class="article container">
@@ -44,7 +44,7 @@
     <p class="article-content">Home warranties usually all operate in much the same way: a customer places a call to a call center who will then open a case file for you.  A local service technician will then be assigned to you and an appointment will be set up for the technician to come out.  Usually a small service fee or deductible must be paid to the service technician upon arrival.  Most home warranty companies will require you to open a service request before they pay anything for a repair.
     <p class="article-content">Home owners insurance is in many ways no different than home warranties. It is imperative to know what is and what is not covered as there may be some loopholes or gaps in coverage that you may be unaware of.  For example, tornado insurance may not be included and must be purchased seperately.  Also, the deductible will vary far more than a home warranty company and will be based off of what your choose.</p>
     </div>
-<?php include('footer.php'); ?>
+<?php include('../footer.php');?>
     </body>
     </div>
 </html>

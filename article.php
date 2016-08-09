@@ -36,19 +36,19 @@
                 <h4><strong>Home Warranty vs Home Owners Insurance</strong></h4>
                 <time>5/25/2016</time>
                 <p>Home warranty plans are often included with the purchase of a home.  Not to be confused with home owners insurance, home warranties are a completely different...</p>
-                <a href="./articles/article-one.html">Read On</a>
+                <a href="./articles/article-one.php">Read On</a>
             </article>
             <article>
                 <h4><strong>Should I include a home warranty in the sale of my home?</strong></h4>
                 <time>5/27/2016</time>
                  <p>When purchasing something, most of the time there is a warranty that is offered.  Depending on the item that is being purchased, some warranties...</p>
-                <a href="./articles/article-two.html">Read On</a>
+                <a href="./articles/article-two.php">Read On</a>
             </article>
             <article>
               <h4><strong>Getting the Most out of a Home Warranty</strong></h4>
               <time>6/07/2016</time>
               <p>Though a home warranty can be a great investment, it's important to know if it's the right investment for you before making a purchase...</p>
-              <a href="./articles/article-three.html">Read On</a>
+              <a href="./articles/article-three.php">Read On</a>
             </article>
         
             <a href="#">Next Page</a>

@@ -23,7 +23,7 @@
 </script>
 </head>
 <div id="sitewrapper">
-<?php include('header.php'); ?>
+<?php include('../header.php');?>
 <!--Start of Content-->
 <body>
 <div itemscope itemtype="https://schema.org/Article" class="article container">
@@ -62,7 +62,7 @@
     <p class="article-content"><em>Check out our exhaustive list of <a href="../index.html">home warranty services</a> for a ton of great, at-a-glance information. This will allow you to make a well-researched decision, while doing very little actual research!</em></p> 
     
     </div>
-<?php include('footer.php'); ?>
+<?php include('../footer.php'); ?>
     </body>
     </div>
 </html>

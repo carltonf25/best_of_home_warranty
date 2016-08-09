@@ -24,8 +24,8 @@
 </script>
 </head>
 <div id="sitewrapper">
-<?php include('header.php'); ?>
-    <!--Start of Content-->
+<?php include('../header.php');?>
+<!--Start of Content-->
 <body>
 <div itemscope itemtype="https://schema.org/Article" class="article container">
     <h1 itemprop="name" class="article-title">Should I include a home warranty when I sell my home?</h1>
@@ -43,7 +43,7 @@
     <p class="article-content">Home warranties can be used to cover the property while trying to sell it and are typically at least one year in length although many home warranty companies do offer extended year plans.  If you are a seller and have taken advantage of a home warranty with a one year plan and that plan expires, your house may have other reasons that are preventing it from appearing attractive to prospective home buyers.</p>
     <p class="article-content">Although home warranties are extremely similiar in many regards, every single company will have different plans and different combinations of coverage.  Most of the nationwide home warranty providers will cover all of the major appliances such as dryers and washer, kitchen fridges and dishwashers.  They also will cover the "bones" of the house, things such as the furnace and air conditioning, the plumbing and the electrical system in the home.  Most customers of home warranties are looking for help with the big ticket items in the home.  A home warranty is a sure fire way to ensure your buyer is satisfied with his purchase for years to come!</p> 
     </div>
-<?php include('footer.php'); ?>
+<?php include('../footer.php'); ?>
     </body>
     </div>
 </html>
