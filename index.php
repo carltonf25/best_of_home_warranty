@@ -54,7 +54,8 @@
 <div id="afcpromo" class="company_discounts">
     <a id="x" class="hvr-fade" href="javascript:void(0)" onclick = "closePromo();">&#9747;</a></p>
     <div class="promo_logo_holder">
-    <img class="promo_logo" src="http://home-warranty-company-reviews.com/wp-content/uploads/2015/01/AFC-Home-Club-Logo_Stacked-360x203.jpg" alt="America's First Choice logo">
+    <img class="promo_logo" src="http://i68.tinypic.com/3133ath.png" alt="America's First Choice logo">
+
     </div>
     <ul class="promolist">
         <li>15% any plan during Summer Promotion 2016</li>

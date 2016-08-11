@@ -396,6 +396,41 @@ iframe {
 .article-title {
     font-size: 50px;
 }
+
+/* Review Page Formatting */ 
+
+.review_heading{
+    text-align: center;
+    margin:2% auto;
+
+}
+.review_box{
+    width: 75%;
+    margin: 0 auto;
+    padding: 3%;
+    background: #E5E5E5;
+    text-align: center;
+}
+
+.author_box{
+    border: 3px solid #E5E5E5;
+    width: 75%;
+    margin: 0 auto;
+    padding: 4%;
+}
+
+.author_img{
+    width: 120px;
+    height: 90px;
+    float: left;
+    margin-bottom: 1%;
+}
+
+.author_box li p {
+    float: right;
+}
+
+
 /* Bottom Content */
 .bottomreading {
     font-size: 20px;
@@ -674,6 +709,12 @@ iframe {
             padding: 10px;
             display: none;
         }
+
+         .col-md-3 li {
+            text-align: center;
+         }
+
+
         .col-xs-6 {
             padding: 4px;
             font-size: 85%;
