@@ -17,8 +17,8 @@
                 <li><strong>Monthly options:</strong> 1 or 3 year</li>
                 <li><strong>Years in Business:</strong> 14</li>
                 <li><strong>Cancellation Fee:</strong> $50</li>
-                <li><strong>Rating: 9.9/10 <br />
-                   <a href="/reviews/afc.php">Read Review</a></strong>
+                <li><strong>
+                   <a href="./reviews/afc.php">Read Review</a></strong>
                 </li>
               </ul>
               <a itemprop="url" href="http://www.afchomeclub.com/home-warranty-free-quote-BOHW.php" target="_blank"><button class="quote hvr-grow" onclick="ga('send', 'event', 'visitSite', 'click', 'AFC');">Visit Site</button></a>
@@ -38,11 +38,11 @@
                 <li><strong>Average response time:</strong> 24-48 hours</li>
                 <li><strong>Pricing locked in?</strong> No</li>
                 <li><strong>Length of policies:</strong> 1 / 3 / 5 year</li>
-                <li><strong>Monthly options:</strong> 1 year plan only</li>
+                <li><strong>Monthly options:</strong> 1 year plans</li>
                 <li><strong>Years in Business:</strong> 8</li>
                 <li><strong>Cancellation Fee:</strong> $50</li>
-                <li><strong>Rating: 9.9/10 <br />
-                   <a href="/reviews/afc.php">Read Review</a></strong>
+                <li><strong>
+                   <a href="./reviews/afc.php">Read Review</a></strong>
                 </li>
               </ul> 
             <a itemprop="url" href="http://chwplan.com/a/a54/index.php?utm_source=bohwfm&amp;utm_campaign=SUBID" target="_blank"><button class="quote hvr-grow" onclick="ga('send', 'event', 'visitSite', 'click', 'Choice');">Visit Site</button></a>
@@ -61,12 +61,12 @@
                 <li><strong>Can choose your own service tech?</strong>Yes</li>
                 <li><strong>Average response time:</strong> 24-48 hours</li>
                 <li><strong>Pricing locked in?</strong> No</li>
-                <li><strong>Length of policies:</strong> 1 / 3 / 5 years</li>
-                <li><strong>Monthly options:</strong> 1 year plan only</li>
+                <li><strong>Length of policies:</strong> 1 / 3 / 5 year</li>
+                <li><strong>Monthly options:</strong> 1 year plans</li>
                 <li><strong>Years in Business:</strong> 4</li>
                 <li><strong>Cancellation Fee:</strong> $75</li>
-                <li><strong>Rating: 9.9/10 <br />
-                    <a href="/reviews/afc.php">Read Review</a></strong></li>
+                <li><strong>
+                    <a href="./reviews/afc.php">Read Review</a></strong></li>
                 </ul> 
             <a itemprop="url" href="https://selecthomewarranty.com/affiliate/3c0c53" target="_blank"><button class="quote hvr-grow" onclick="ga('send', 'event', 'visitSite', 'click', 'Select');">Visit Site</button></a>
             </div>
@@ -86,11 +86,11 @@
                 <li><strong>Average response time:</strong> 2 hours emergency / 48 hours</li>
                 <li><strong>Pricing locked in?</strong> No</li>
                 <li><strong>Length of policies:</strong> 1 year</li>
-                <li><strong>Monthly options:</strong> 1 year plan only</li>
+                <li><strong>Monthly options:</strong> 1 year plans</li>
                 <li><strong>Years in Business:</strong> 33</li>
                 <li><strong>Cancellation Fee:</strong> $25</li>
-                <li><strong>Rating: 9.9/10 <br />
-                    <a href="/reviews/afc.php">Read Review</a></strong></li>
+                <li><strong>
+                    <a href="./reviews/afc.php">Read Review</a></strong></li>
                 </ul>
               </ul>
                 <a itemprop="url" href="http://www.anrdoezrs.net/click-8083462-11382333-1453493377000" target="_top"><button class="quote hvr-grow" onclick="ga('send', 'event', 'visitSite', 'click', 'Total');">Visit Site</button></a>
@@ -112,11 +112,11 @@
                 <li><strong>Average response time:</strong> 24-48 hours</li>
                 <li><strong>Pricing locked in?</strong> Yes</li>
                 <li><strong>Length of policies:</strong> 1 year plans</li>
-                <li><strong>Monthly options:</strong> 1 year plan only</li>
+                <li><strong>Monthly options:</strong> 1 year plans</li>
                 <li><strong>Years in Business:</strong> 10f</li>
                 <li><strong>Cancellation Fee:</strong> $0</li>
-                <li><strong>Rating: 9.9/10 <br />
-                    <a href="/reviews/afc.php">Read Review</a></strong></li>
+                <li><strong>
+                    <a href="./reviews/afc.php">Read Review</a></strong></li>
                 </ul>
             <a itemprop="url" href="http://securehomewarranty.com/" target='_blank'><button class="quote hvr-grow">Visit Site</button></a>
             </div>
@@ -137,8 +137,8 @@
                 <li><strong>Monthly options:</strong> 1 year plans</li>
                 <li><strong>Years in business:</strong> 32</li>
                 <li><strong>Cancellation Fee:</strong> $50</li>
-                <li><strong>Rating: 9.9/10 <br />
-                    <a href="/reviews/afc.php">Read Review</a></strong></li>
+                <li><strong>
+                    <a href="./reviews/afc.php">Read Review</a></strong></li>
                 </ul>
               </ul>   
                 <a itemprop="url" href="https://homewarranty.firstam.com/" target="_blank"><button class="quote hvr-grow">Visit Site</button></a>
@@ -157,11 +157,11 @@
                 <li><strong>Average response time:</strong> 24-48 hours</li>
                 <li><strong>Pricing locked in?</strong> No</li>
                 <li><strong>Length of policies:</strong> 1 / 3 / 5 year</li>
-                <li><strong>Monthly options:</strong> 1 year plan only</li>
+                <li><strong>Monthly options:</strong> 1 year plans</li>
                 <li><strong>Years in Business:</strong> 2</li>
                 <li><strong>Cancellation Fee:</strong> $50</li>
-                <li><strong>Rating: 9.9/10 <br />
-                    <a href="/reviews/afc.php">Read Review</a></strong></li>
+                <li><strong>
+                    <a href="./reviews/afc.php">Read Review</a></strong></li>
                 </ul>
             <a itemprop="url" href="http://www.deltahomeprotect.com/" target="_blank"><button class="quote hvr-grow">Visit Site</button></a>
             </div>
@@ -179,11 +179,11 @@
                 <li><strong>Average response time:</strong> 24-48 hours</li>
                 <li><strong>Pricing locked in?</strong> No</li>
                 <li><strong>Length of policies:</strong> 1 Year</li>
-                <li><strong>Monthly options:</strong> 1 year plan only</li>
+                <li><strong>Monthly options:</strong> 1 year plans</li>
                 <li><strong>Years in Business:</strong> 45</li>
                 <li><strong>Cancellation Fee:</strong> None</li>
-                <li><strong>Rating: 9.9/10 <br />
-                    <a href="/reviews/afc.php">Read Review</a></strong></li>
+                <li><strong>
+                    <a href="./reviews/afc.php">Read Review</a></strong></li>
                 </ul>
               </ul> 
                 <a itemprop="url" href="https://www.ahs.com/" target="_blank"><button class="quote hvr-grow" onclick=_gaq.push([‘_trackEvent’, ‘button’, ‘clicked’ ‘AHS’]);>Visit Site</button></a>
