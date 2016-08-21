@@ -26,7 +26,7 @@
 </head>
 <body>
 <div id="sitewrapper">
-<?php include('../header.php');?>
+<?php include('../review-article_header.php');?>
 
 <!--Start of Content-->
 

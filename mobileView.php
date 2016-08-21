@@ -17,8 +17,8 @@
                 <li><strong>Monthly options:</strong> 1 and 3 years</li>
                 <li><strong>Years in Business:</strong> 14</li>
                 <li><strong>Cancellation Fee:</strong> $50</li>
-                <!--<li><strong>Rating: 9.9/10 <br />
-                    <a href="/reviews/afc.php">Read Review</a></strong></li>!-->
+                <li><strong> <br />
+                    <a href="/reviews/afc.php">Read Review</a></strong></li>
               </ul>
               <a itemprop="url" href="http://www.afchomeclub.com/home-warranty-free-quote-BOHW.php" target="_blank"><button class="quote hvr-grow" onclick=_gaq.push([‘_trackEvent’, ‘button’, ‘clicked’ ‘AFC’]);>Visit Site</button></a>
               </div>   
@@ -40,8 +40,8 @@
                 <li><strong>Monthly options:</strong> 1 year plan only</li>
                 <li><strong>Years in Business:</strong> 8</li>
                 <li><strong>Cancellation Fee:</strong> $50</li>
-                <!--<li><strong>Rating: 9.9/10 <br />
-                    <a href="/reviews/afc.php">Read Review</a></strong></li>!-->
+                <li><strong> <br />
+                    <a href="/reviews/chw.php">Read Review</a></strong></li>
                 </ul> 
             <a itemprop="url" href="http://chwplan.com/a/a54/index.php?utm_source=bohwfm&amp;utm_campaign=SUBID" target="_blank"><button class="quote hvr-grow">Visit Site</button></a>
             </div> 
@@ -64,8 +64,8 @@
                 <li><strong>Monthly options:</strong> 1 year plan only</li>
                 <li><strong>Years in Business:</strong> 4</li>
                 <li><strong>Cancellation Fee:</strong> $75</li>
-                <!--<li><strong>Rating: 9.9/10 <br />
-                    <a href="/reviews/afc.php">Read Review</a></strong></li>!-->
+                <li><strong> <br />
+                    <a href="/reviews/shw.php">Read Review</a></strong></li>
             </ul> 
             <a itemprop="url" href="https://selecthomewarranty.com/affiliate/3c0c53" target="_blank"><button class="quote hvr-grow">Visit Site</button></a>
             </div>
@@ -86,8 +86,8 @@
                 <li><strong>Monthly options:</strong> 1 year plan only</li>
                 <li><strong>Years in Business:</strong> 45</li>
                 <li><strong>Cancellation Fee:</strong> None</li>
-                <!--<li><strong>Rating: 9.9/10 <br />
-                    <a href="/reviews/afc.php">Read Review</a></strong></li>!-->
+                <li><strong> <br />
+                    <a href="/reviews/ahs.php">Read Review</a></strong></li>
               </ul> 
                 <a itemprop="url" href="https://www.ahs.com/" target="_blank"><button class="quote hvr-grow" onclick=_gaq.push([‘_trackEvent’, ‘button’, ‘clicked’ ‘AHS’]);>Visit Site</button></a>
             </div>   
@@ -111,8 +111,8 @@
                 <li><strong>Monthly options:</strong> 1 year plan only</li>
                 <li><strong>Years in Business:</strong> 10</li>
                 <li><strong>Cancellation Fee:</strong> $0</li>
-                <!--<li><strong>Rating: 9.9/10 <br />
-                    <a href="/reviews/afc.php">Read Review</a></strong></li>!-->
+                <li><strong> <br />
+                    <a href="/reviews/secure.php">Read Review</a></strong></li>
                 </ul> 
             <a itemprop="url" href="http://securehomewarranty.com/" target='_blank'><button class="quote hvr-grow">Visit Site</button></a>
             </div>  
@@ -133,19 +133,17 @@
                 <li><strong>Monthly options:</strong> 1 year plans only</li>
                 <li><strong>Years in business:</strong> 32</li>
                 <li><strong>Cancellation Fee:</strong> $50</li>
-                <!--<li><strong>Rating: 9.9/10 <br />
-                    <a href="/reviews/afc.php">Read Review</a></strong></li>!-->
+                <li><strong> <br />
+                    <a href="/reviews/first_american.php">Read Review</a></strong></li>
               </ul>   
                 <a itemprop="url" href="https://homewarranty.firstam.com/" target="_blank"><button class="quote hvr-grow" onclick=_gaq.push([‘_trackEvent’, ‘button’, ‘clicked’ ‘FAHW’]);>Visit Site</button></a>
             </div> 
 </div>
-<<<<<<< HEAD
+
 <div class="row">
           <div itemscope itemtype="http://schema.org/Organization" target="contact" class="colrow col-xs-6">
-=======
     <div class="row">
           <div itemscope itemtype="http://schema.org/Organization" target="contact" class="colrow col-xs-6" id="dhp-mobile-col">
->>>>>>> 221ffbeb7c63a3ae37040793826bc7ba436e6bea
             <div class="company-logo">
                 <img itemprop="logo" src="http://www.deltahomeprotect.com/wp-content/uploads/2015/06/delta-home-protect-retina.png" alt="Delta Home Protect Logo" id="dhp-mobile-logo">
             </div>
@@ -161,13 +159,13 @@
                 <li><strong>Monthly options:</strong> 1 year plan only</li>
                 <li><strong>Years in Business:</strong> 2</li>
                 <li><strong>Cancellation Fee:</strong> $50</li>
-                <!--<li><strong>Rating: 9.9/10 <br />
-                    <a href="/reviews/afc.php">Read Review</a></strong></li>!-->
+                <li><strong> <br />
+                    <a href="/reviews/dhp.php">Read Review</a></strong></li>
                 </ul> 
             <a itemprop="url" href="http://www.deltahomeprotect.com/" target="_blank"><button class="quote hvr-grow">Visit Site</button></a>
             </div>
             
-x          <div itemscope itemtype="http://schema.org/Organization" target="contact" class="colrow col-xs-6">
+           <div itemscope itemtype="http://schema.org/Organization" target="contact" class="colrow col-xs-6">
                 <div class="company-logo totalprotect">
                 <img itemprop="logo" src="https://media.consumeraffairs.com/files/cache/guide-campaign-logos/total_protect_logo_thumbnail.jpg" alt="Total Protect Logo" id="tp-mobile-logo">
                 </div>
@@ -183,8 +181,8 @@ x          <div itemscope itemtype="http://schema.org/Organization" target="cont
                 <li><strong>Monthly options:</strong> 1 year plan only</li>
                 <li><strong>Years in Business:</strong> 33</li>
                 <li><strong>Cancellation Fee:</strong> $25</li>
-                <!--<li><strong>Rating: 9.9/10 <br />
-                    <a href="/reviews/afc.php">Read Review</a></strong></li>!-->          
+                <li><strong> <br />
+                    <a href="/reviews/total_protect.php">Read Review</a></strong></li>          
                 </ul>
                 <a itemprop="url" href="http://www.anrdoezrs.net/click-8083462-11382333-1453493377000" target="_top"><button class="quote hvr-grow">Visit Site</button></a>
             </div> 
