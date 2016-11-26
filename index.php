@@ -116,9 +116,7 @@
     <a href="http://www.tkqlhce.com/click-8083462-11382333-1453493377000" target="_blank"><button class="promo quote hvr-grow" onclick="ga('send','event', 'promoSite', 'promoVisit','Total');">Visit Site</button></a>
 </div>
     </div>
-<!--Start of Footer Content!-->
-<?php
-include("footer.php");
-    ?>
+    <!--Start of Footer Content!-->
+<?php include('./footer.php');?>
     </body>
 </html>

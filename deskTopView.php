@@ -1,6 +1,6 @@
        <div class="row">
           <div itemscope itemtype="http://schema.org/Organization" target="contact" class="colrow col-md-3">    
-              <button src="javascript:void(0)" class="ribbon" id="afcbutton" onclick = "displayPromo(this.id); ga('send', 'event', 'promoRibbon', 'promoClick', 'AFC');">Click to View Promotions</button>
+              <button src="javascript:void(0)" class="ribbon" id="afcbutton" onclick ="displayPromo(this.id); ga('send', 'event', 'promoRibbon', 'promoClick', 'AFC');">Click to View Promotions</button>
               <span class="endtop"></span><span class="endbottom"></span>
             <div class="company-logo">
               <img itemprop="logo" src="http://home-warranty-company-reviews.com/wp-content/uploads/2015/01/AFC-Home-Club-Logo_Stacked-360x203.jpg" alt="AFC Logo">
@@ -187,5 +187,6 @@
                 </ul>
               </ul> 
                 <a itemprop="url" href="https://www.ahs.com/" target="_blank"><button class="quote hvr-grow" onclick=_gaq.push([‘_trackEvent’, ‘button’, ‘clicked’ ‘AHS’]);>Visit Site</button></a>
-            </div> 
+                </div> 
             </div>
+        </div>

@@ -19,8 +19,8 @@ function displayDate() {
 and change to loop once we have more promo buttons */
 function displayPromo(id) {
     if (id == "afcbutton" ) {
-            document.getElementById('afcpromo').style.display='block';
-            document.getElementById('fade').style.display='block';
+            document.getElementById("afcpromo").style.display="block";
+            document.getElementById("fade").style.display="block";
     }
     else if (id == "choicebutton") {
             document.getElementById("choicepromo").style.display="block";
@@ -44,3 +44,4 @@ function closePromo() {
     document.getElementById("selectpromo").style.display = "none";
     document.getElementById("totalpromo").style.display = "none";
     }
+
