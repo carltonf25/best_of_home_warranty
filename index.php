@@ -58,8 +58,8 @@
 
     </div>
     <ul class="promolist">
-        <li>15% any plan during Summer Promotion 2016</li>
-        <li>Free club benefits</li>
+        <li>10% off online payment price with quote request.</li>
+        <li>Free club benefits included with plans.</li>
             <ul id="club_benefits">
                 <li>$25 per month restaurant gift cards</li>
                 <li>Retail Benefits</li>
@@ -80,7 +80,7 @@
     <ul class="promolist">
         <li>First Month Free</li>
         <li>$50 Off Any Plan, Limited Time</li>
-        <li>Get a quote and enter to win brand new appliances!</li>
+        <li>Get a quote and enter to win a stainless steel appliance set!</li>
     </ul>
     <p>*Some promotions may require a quote request</p>
     <a href="http://chwplan.com/a/a54/index.php?utm_source=bohwfm&amp;utm_campaign=SUBID" target="_blank"><button class="promo quote hvr-grow" onclick="ga('send','event', 'promoSite', 'promoVisit','Choice');">Visit Site</button></a>
@@ -94,12 +94,11 @@
     <img class="promo_logo" src="https://selecthomewarranty.com/assets/logo.png" alt="Select Home Warranty Logo">
     </div>
     <ul class="promolist">
-        <li>20% Off Limited Time</li>
-        <li>2 Months Free</li>
-        <li>Free Roof Coverage</li>
-        <li>Discount Code SUM2016</li>
+        <li>Flat $100 off</li>
+        <li>2 Additional Months Free</li>
+        <li>Free Roof Coverage with Bundle Plan</li>
+        <li>Use Discount Code COL2016</li>
     </ul>
-    <p>*Some promotions may require a quote request</p>
     <a href="https://selecthomewarranty.com/affiliate/3c0c53" target="_blank"><button class="promo quote hvr-grow" onclick="ga('send','event', 'promoSite', 'promoVisit','Select');">Visit Site</button></a>
 </div>
 <!--TotalProtect PROMO POPUP!-->

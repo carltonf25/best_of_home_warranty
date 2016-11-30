@@ -20,12 +20,14 @@
                 <!--<li><strong>Rating: 9.9/10 <br />
                     <a href="/reviews/afc.php">Read Review</a></strong></li>!-->
               </ul>
-              <a itemprop="url" href="http://www.afchomeclub.com/home-warranty-free-quote-BOHW.php" target="_blank"><button class="quote hvr-grow" onclick=_gaq.push([‘_trackEvent’, ‘button’, ‘clicked’ ‘AFC’]);>Visit Site</button></a>
+              <a itemprop="url" href="http://www.afchomeclub.com/home-warranty-free-quote-BOHW.php" target="_blank"><button class="quote hvr-grow" onclick=_gaq.push([‘_trackEvent’, ‘button’, ‘clicked’ ‘AFC’]);>Visit Site</button></a><br />
+              <a href="tel:6782360646">(678)-236-0646</a>
+
               </div>   
             
           <div itemscope itemtype="http://schema.org/Organization" target="contact" class="colrow col-xs-6">
             <div class="company-logo choice">
-              <span class="ribbon mobile">Best Rates in Industry</span><span class="endtop"></span><span class="endbottom"></span>
+              <span class="ribbon mobile">Most Popular</span><span class="endtop"></span><span class="endbottom"></span>
                 <img itemprop="logo" src="https://www.choicehomewarranty.com/images/chw_logo.jpg" alt="Choice Home Warranty Logo" id="chw-mobile-logo">
             </div>
             <ul>
@@ -43,13 +45,14 @@
                 <!--<li><strong>Rating: 9.9/10 <br />
                     <a href="/reviews/afc.php">Read Review</a></strong></li>!-->
                 </ul> 
-            <a itemprop="url" href="http://chwplan.com/a/a54/index.php?utm_source=bohwfm&amp;utm_campaign=SUBID" target="_blank"><button class="quote hvr-grow">Visit Site</button></a>
+            <a itemprop="url" href="http://chwplan.com/a/a54/index.php?utm_source=bohwfm&amp;utm_campaign=SUBID" target="_blank"><button class="quote hvr-grow">Visit Site</button></a><br />
+              <a href="tel:8008161053">(800)-816-1053</a>
             </div> 
         </div>
         <div class="row">
           <div itemscope itemtype="http://schema.org/Organization" target="contact" class="colrow col-xs-6">
             <div class="company-logo select">
-              <span class="ribbon mobile">Roof Coverage Available</span><span class="endtop"></span><span class="endbottom"></span>
+              <span class="ribbon mobile">Most comprehensive plans</span><span class="endtop"></span><span class="endbottom"></span>
                 <img itemprop="logo" src="https://selecthomewarranty.com/assets/logo.png" alt="Select Home Warranty Logo">
             </div>
             <ul>
@@ -67,7 +70,8 @@
                 <!--<li><strong>Rating: 9.9/10 <br />
                     <a href="/reviews/afc.php">Read Review</a></strong></li>!-->
             </ul> 
-            <a itemprop="url" href="https://selecthomewarranty.com/affiliate/3c0c53" target="_blank"><button class="quote hvr-grow">Visit Site</button></a>
+            <a itemprop="url" href="https://selecthomewarranty.com/affiliate/3c0c53" target="_blank"><button class="quote hvr-grow">Visit Site</button></a><br/>
+            <a href="tel:8556104663">855-610-4663</a>
             </div>
             
           <div itemscope itemtype="http://schema.org/Organization" target="contact" class="colrow col-xs-6" id="ahs-mobile-col">
@@ -139,13 +143,10 @@
                 <a itemprop="url" href="https://homewarranty.firstam.com/" target="_blank"><button class="quote hvr-grow" onclick=_gaq.push([‘_trackEvent’, ‘button’, ‘clicked’ ‘FAHW’]);>Visit Site</button></a>
             </div> 
 </div>
-<<<<<<< HEAD
 <div class="row">
-          <div itemscope itemtype="http://schema.org/Organization" target="contact" class="colrow col-xs-6">
-=======
+          <!--<div itemscope itemtype="http://schema.org/Organization" target="contact" class="colrow col-xs-6">
     <div class="row">
           <div itemscope itemtype="http://schema.org/Organization" target="contact" class="colrow col-xs-6" id="dhp-mobile-col">
->>>>>>> 221ffbeb7c63a3ae37040793826bc7ba436e6bea
             <div class="company-logo">
                 <img itemprop="logo" src="http://www.deltahomeprotect.com/wp-content/uploads/2015/06/delta-home-protect-retina.png" alt="Delta Home Protect Logo" id="dhp-mobile-logo">
             </div>
@@ -162,12 +163,12 @@
                 <li><strong>Years in Business:</strong> 2</li>
                 <li><strong>Cancellation Fee:</strong> $50</li>
                 <!--<li><strong>Rating: 9.9/10 <br />
-                    <a href="/reviews/afc.php">Read Review</a></strong></li>!-->
+                    <a href="/reviews/afc.php">Read Review</a></strong></li>
                 </ul> 
             <a itemprop="url" href="http://www.deltahomeprotect.com/" target="_blank"><button class="quote hvr-grow">Visit Site</button></a>
-            </div>
+            </div>!-->
             
-x          <div itemscope itemtype="http://schema.org/Organization" target="contact" class="colrow col-xs-6">
+          <div itemscope itemtype="http://schema.org/Organization" target="contact" class="colrow col-xs-6">
                 <div class="company-logo totalprotect">
                 <img itemprop="logo" src="https://media.consumeraffairs.com/files/cache/guide-campaign-logos/total_protect_logo_thumbnail.jpg" alt="Total Protect Logo" id="tp-mobile-logo">
                 </div>
@@ -187,5 +188,7 @@ x          <div itemscope itemtype="http://schema.org/Organization" target="cont
                     <a href="/reviews/afc.php">Read Review</a></strong></li>!-->          
                 </ul>
                 <a itemprop="url" href="http://www.anrdoezrs.net/click-8083462-11382333-1453493377000" target="_top"><button class="quote hvr-grow">Visit Site</button></a>
-            </div> 
+            </div>
+              </div>
+    </div>
     </div>
