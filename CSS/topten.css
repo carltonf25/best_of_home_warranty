@@ -405,17 +405,12 @@ iframe {
 
 .review_heading{
     text-align: center;
-    margin:2% auto;
+    margin: 2% auto;
 
 }
-.review_box{
-    width: 75%;
-    margin: 0 auto;
-    padding: 3%;
-    background: #E5E5E5;
-    text-align: center;
+.review_box {
+    background: beige;
 }
-
 .author_box{
     border: 3px solid #E5E5E5;
     width: 75%;
@@ -433,7 +428,10 @@ iframe {
 .author_box li p {
     float: right;
 }
-
+.reviewParagraphs {
+    text-align: left;
+    font-size: 1.5em;
+}
 
 /* Bottom Content */
 .bottomreading {
