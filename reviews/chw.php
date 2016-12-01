@@ -26,13 +26,14 @@ f<!DOCTYPE html>
 </head>
 <body>
 <div id="sitewrapper">
-<?php include('../review-article_header.php');?>
+<?php include('../header.php');?>
 
 <!--Start of Content-->
 
   <div class="container review_heading">
+      <div class="review_logos">
     <img itemprop="logo" src="http://res.cloudinary.com/goodsearch/image/upload/v1449103404/hi_resolution_merchant_logos/choice-home-warranty_coupons.png" alt="Choice Home Warranty Logo">
-
+      </div>
   </div>
 
   <div class="container review_box">
@@ -43,10 +44,10 @@ f<!DOCTYPE html>
     providing fast, efficient and affordable premiums that include basic and total coverage.</p> 
           <p class="reviewParagraphs">They offer a no-fee, transferable warranty plan structure that make their plans ideal for
     homeowners, landlords or realtors who may consider selling their home in the future.
-    Choice is however ideal for any existing property owner who’s looking for reliable
+    Choice is however ideal for any existing property owner who's looking for reliable
     home warranty services that provides security and added value to their home</p>
-          <p class="reviewParagraphs">Another great benefit to using Choice Home Warranty’s plans is their integrated “work
-    order dispatch system” that hastens repair and maintenance services. This also ties into
+          <p class="reviewParagraphs">Another great benefit to using Choice Home Warrantys plans is their integrated "work
+    order dispatch system" that hastens repair and maintenance services. This also ties into
     their easily accessible, personalized home maintenance checklist that reminds the
     homeowner of upcoming or important home considerations. Best of all, all questions
     and concerns can be answered by their customer service call center at anytime, 24/7.</p>
@@ -74,7 +75,7 @@ f<!DOCTYPE html>
     <h2>Basic vs. Total Coverage: </h2>
       <p class="reviewParagraphs">An important element to consider with Choice Home Warranty is their basic and total
 coverage options. Although their website outlines some very easy to read coverage
-tables, we feel it’s important to outline the real differences.</p>
+tables, we feel it's important to outline the real differences.</p>
       </div>
       <div class="col-md-6">
           <h1>Basic Plan: </h1>

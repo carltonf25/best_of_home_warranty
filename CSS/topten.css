@@ -408,8 +408,19 @@ iframe {
     margin: 2% auto;
 
 }
+.review_logos {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+#select_logo_rev {
+    width: auto
+    height: auto;
+    padding: 0;
+}
 .review_box {
-    background: beige;
 }
 .author_box{
     border: 3px solid #E5E5E5;

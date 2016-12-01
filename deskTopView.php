@@ -17,6 +17,9 @@
                 <li><strong>Monthly options:</strong> 1 or 3 year</li>
                 <li><strong>Years in Business:</strong> 14</li>
                 <li><strong>Cancellation Fee:</strong> $50</li>
+                <li><strong>
+                   <a href="./reviews/afc.php">In Depth Overview</a></strong>
+                </li>
                 <li class="reviewholder">
                     <a href="http://www.bbb.org/atlanta/business-reviews/home-warranty-plans/afc-home-club-in-marietta-ga-27282410" target="_blank">
                     <img class="bbb" src="http://theoverheaddoordepot.com/wp-content/uploads/BBB-Logo-Blue-Horizontal.png?quality=100.3015112611140" alt="bbb_logo"><br><h4>B BBB Rating<br>Click for Review</h4></a>
@@ -44,6 +47,9 @@
                 <li><strong>Monthly options:</strong> 1 year plan only</li>
                 <li><strong>Years in Business:</strong> 8</li>
                 <li><strong>Cancellation Fee:</strong> $50</li>
+                <li><strong>
+                   <a href="./reviews/chw.php">In Depth Overview</a></strong>
+                </li>
                 <li class="reviewholder">
                     <img class="consumeraffair" src="https://media.consumeraffairs.com/static/img/common/trusted-shield-102.036a65cca665.png" alt="ca_logo"><h4><br>Consumer Affairs Accredited</h4></li>
               </ul> 
@@ -68,6 +74,8 @@
                 <li><strong>Monthly options:</strong> 1 year plan only</li>
                 <li><strong>Years in Business:</strong> 4</li>
                 <li><strong>Cancellation Fee:</strong> $75</li>
+                <li><strong>
+                    <a href="./reviews/shw.php">In Depth Overview</a></strong></li>
                 <li class="reviewholder">
                     <img class="consumeraffair" src="https://media.consumeraffairs.com/static/img/common/trusted-shield-102.036a65cca665.png" alt="Consumer Affairs Logo"><h4><br>Consumer Affairs Accredited</h4></li>
               </ul> 
@@ -91,6 +99,8 @@
                 <li><strong>Monthly options:</strong> 1 year plan only</li>
                 <li><strong>Years in Business:</strong> 45</li>
                 <li><strong>Cancellation Fee:</strong> None</li>
+                <li><strong>
+                    <a href="./reviews/ahs.php">In Depth Overview</a></strong></li>
                 <li class="reviewholder">
                     <a href="http://www.bbb.org/memphis/business-reviews/real-estate-maintenance-protection-plan/american-home-shield-in-memphis-tn-22001027" target="_blank">
                     <img class="bbb" src="http://theoverheaddoordepot.com/wp-content/uploads/BBB-Logo-Blue-Horizontal.png?quality=100.3015112611140" alt="BBB Logo"><br><h4>B BBB Rating<br>Click for Review</h4></a>

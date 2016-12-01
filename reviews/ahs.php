@@ -26,39 +26,108 @@
 </head>
 <body>
 <div id="sitewrapper">
-<?php include('../review-article_header.php');?>
+<?php include('../header.php');?>
 
 <!--Start of Content-->
 
-  <div class="review_heading">
-    <h1>American Home Shield</h1>
-    <small>Review by: Goobie Perkins</small>
+  <div class="container review_heading">
+      <div class="review_logos">
+        <img itemprop="logo" src="https://www.ahs.com/static-srvm/ahs/AHS_logo_230_by_90.png" alt="American Home Shield Logo">
+      </div>
   </div>
 
-  <div class="review_box">
-
-    <h2>TL;DR</h2>
-      <p>AFC really distinguishes itself with its customer service and in-house claim handling. They have excellent pricing and some no-frills plans that would work great for landlords with very limited investment in appliances.</p> 
-    <h2>Coverage</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <h2>Customer Service</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-    <h2>Overall Value</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <div class="container review_box">
+      <div class="paragraph_box col-md-12">
+        <h2>Overview:</h2>
+          <p class="reviewParagraphs">American Home Shield (AHS) is the largest home warranty provider in the United
+States, with over 1.5 million customers. AHS is known for the strengths in providing
+highly-reliable warranty plans and top-notch contractors. What makes AHS even more
+unique is their à la carte plans that allow you to customize your coverage for standard
+household systems and appliances.</p> 
+          <p class="reviewParagraphs">Although the company ranks highly when it comes to plan value and customer
+experience, AHS really shines because of the breadth and quality of its contractor 
+network, the size and stability of their company, and their contract, which is one of the
+least restrictive we've found.</p>
+                </div>
+      <div class="col-md-6">
+          <h1>What we like: </h1>
+        <ul class="reviewParagraphs">
+          <li>Build Your Own Plan or Combo plan options.</li>
+            <li>Easy to make a claim online or on the phone and a huge network of contractors
+across the country.</li>
+            <li>AHS has one of the least restrictive contracts in regards to coverage. They will
+cover repair or replacements of covered items, regardless of age, make or
+model.</li>
+          </ul>
+      </div>
+            <div class="col-md-6">
+          <h1>What we dont like: </h1>
+          <ul class="reviewParagraphs">
+            <li>The AHS cancellation policy is long and difficult to understand with a lot of
+stipulations.</li>
+          </ul>
+      </div>
+      <div class="col-md-12">
+    <h2>Coverage: </h2>
+      <p class="reviewParagraphs">AHS offers three standard plans: a Systems plan, an Appliance plan and their most
+popular, a Combo plan that includes everything in the Systems and Appliance plans.
+AHS offers their Build Your Own Plan option, so you’re paying for exactly what you
+want covered. </p>
+    <p class="reviewParagraphs"> If for example your house doesn’t have air conditioning, you can opt out
+and receive a lower rate. AHS representatives will work with you to find the most
+suitable plan that works best for you.</p>
+      </div>
+      <div class="col-md-6">
+          <h1>Systems Plan: </h1>
+        <ul class="reviewParagraphs">
+            <li>Air conditioning, including ductwork</li>
+            <li>Heating, including ductwork</li>
+            <li>Electrical</li>
+            <li>Plumbing</li>
+            <li>Water Heaters</li>
+            <li>Garbage Disposals</li>
+            <li>Instant Hot/Cold Water Dispensers</li>
+            <li>Central Vacuums</li>
+            <li>Smoke Detectors</li>
+            <li>Doorbells</li>
+            <li>Ceiling Fans</li>
+          </ul>
+      </div>
+      <div class="col-md-6">
+        <h1>Appliance Plan: </h1>
+                <ul class="reviewParagraphs">
+                    <li>Refrigerators</li>
+                    <li>Dishwashers</li>
+                    <li>Clothes Dryers</li>
+                    <li>Clothes Washers</li>
+                    <li>Ranges/Ovens/Cooktops</li>
+                    <li>Built-in Microwave Ovens</li>
+                    <li>Free-standing Ice Makers</li>
+                    <li>Trash Compactors</li>
+                    <li>Garage Door Openers</li>
+                    <li>Built-in Food Processors</li>
+          </ul>
+          <p class="reviewParagraphs">AHS also includes optional coverage on pools, septic systems, well pumps and more.</p>
+      </div>
+      <div class="col-md-12">
+        <h1>Customer Service and Contractors: </h1>
+          <p class="reviewParagraphs">AHS is known for having a very dedicated, around-the-clock customer service team that
+can answer your questions, concerns and claims. This is coupled with AHS’s massive
+nationwide network of over 11,000 independent contractors and 45,000 service
+technicians that ensure your repairs are done properly and promptly. </p>
+      </div>
+      <div class="col-md-12">
+        <h1>Conclusion</h1>
+          <p class="reviewParagraphs">American Home Shield is one of the oldest and largest home warranty companies
+serving millions of people across the country. They offer flexible and customer-focused
+warranty plans that make certain your home is covered the way you want. </p>
+          <p class="reviewParagraphs">In addition to
+their 24/7 customer service, they also boast an impressive and unparalleled network of
+contractors and technicians. Overall, American Home Shield’s history, customer base
+and services speak highly for themselves.</p>
+      </div>
 
   </div>
-  <div class="author_box">
-      <img class="author_img" src="http://srkheadshotday.com/wp-content/uploads/Sonya_Dreizler_Headshot_S3709_Crop32.jpg">
-      <p>
-        Goobie Perkins is a former home warranty sales expert and freelance creative writer. They are very smart and credible, so you should believe whatever they say.
-      </p>    
-
-  </div>
-
-
-
-
 
 
 <?php include('../footer.php');?>
