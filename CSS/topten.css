@@ -415,13 +415,7 @@ iframe {
     padding: 0;
     float: left;
 }
-#select_logo_rev {
-    width: auto
-    height: auto;
-    padding: 0;
-}
-.review_box {
-}
+
 .author_box{
     border: 3px solid #E5E5E5;
     width: 75%;

@@ -31,7 +31,7 @@
 <!--Start of Content-->
 
   <div class="container review_heading">
-            <div class="review_logos" id="select_logo_rev">
+            <div class="review_logos">
                 <img itemprop="logo" id="select_logo_review" src="https://selecthomewarranty.com/assets/logo.png" alt="Select Home Warranty Logo">
             </div>
   </div>
@@ -133,7 +133,14 @@ repairable all within a phone call or the click of a button.</p>
       </div>
 
   </div>
+  <!-- Not sure if giving credit so commented out for now
+<div class="author_box">
+      <img class="author_img" src="http://srkheadshotday.com/wp-content/uploads/Sonya_Dreizler_Headshot_S3709_Crop32.jpg">
+      <p>
+        Goobie Perkins is a former home warranty sales expert and freelance creative writer. They are very smart and credible, so you should believe whatever they say.
+      </p>    
 
+  </div> !-->
 <?php include('../footer.php');?>
     </body>
 </html>
