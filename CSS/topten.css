@@ -403,7 +403,7 @@ iframe {
 
 /* Review Page Formatting */ 
 
-.review_heading{
+.review_heading {
     text-align: center;
     margin: 2% auto;
 
@@ -416,14 +416,14 @@ iframe {
     float: left;
 }
 
-.author_box{
+.author_box {
     border: 3px solid #E5E5E5;
     width: 75%;
     margin: 0 auto;
     padding: 4%;
 }
 
-.author_img{
+.author_img {
     width: 120px;
     height: 90px;
     float: left;
